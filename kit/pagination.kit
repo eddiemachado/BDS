@@ -1,0 +1,105 @@
+<!-- @import "includes/_head" -->
+
+        <!-- @import "includes/_header" -->
+
+        <!-- @import "includes/_nav" -->
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Pagination</h1>
+                <p>Used for parts of the site that have multiple pages, like Search Results, you can use this to allow users to hit a specific page.</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>Use Better icon for Prev/Next</li>
+                  <li>Add Advanced Pagination Options</li>
+                </ul>
+            </div>
+
+            <h3 class="demo-subtitle">Basic Pagination</h3>
+            <p>This works for most instances. Be aware of the ARIA attributes here as they will help us identify the current page. By using the attribute <span class="inline-code">aria-current="true"</span> we can highlight the page the user is one while also maintaining Accessibility compliance.</p>
+
+            <p>You can also shorten the pagination if there are too many pages or even use Previous / Next page options if the situation calls for it.</p>
+
+            <div class="fieldset-demo">
+                <nav class="pagination" role="navigation" aria-label="Pagination Navigation">
+                    <ul class="list-pagination">
+                        <li><a href="#" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
+                        <li><a href="#" aria-label="Goto Page 2">2</a></li>
+                        <li><a href="#" aria-label="Goto Page 3">3</a></li>
+                        <li><a href="#" aria-label="Goto Page 4">4</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;nav class="pagination" role="navigation" aria-label="Pagination Navigation"&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;ul class="list-pagination"&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Current Page, Page 1" aria-current="true"&gt;1&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 2"&gt;2&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 3"&gt;3&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 4"&gt;4&lt;/a&gt;&lt;/li&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/nav&gt;</span>
+                </code>
+            </pre>
+
+            <div class="fieldset-demo">
+                <nav class="pagination" role="navigation" aria-label="Pagination Navigation">
+                    <ul class="list-pagination">
+                        <li><a href="#" aria-label="Goto Previous Page">&laquo;</a></li>
+                        <li><a href="#" aria-label="Goto Page 5">5</a></li>
+                        <li><a href="#" aria-label="Goto Page 6">6</a></li>
+                        <li><a href="#" aria-label="Current Page, Page 7" aria-current="true">7</a></li>
+                        <li><a href="#" aria-label="Goto Page 8">8</a></li>
+                        <li><a href="#" aria-label="Goto Page 9">9</a></li>
+                        <li><a href="#" aria-label="Goto Next Page">&raquo;</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;nav class="pagination" role="navigation" aria-label="Pagination Navigation"&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;ul class="list-pagination"&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Previous Page"&gt;&laquo;&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 5"&gt;5&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 6"&gt;6&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Current Page, Page 7" aria-current="true"&gt;7&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 8"&gt;8&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Page 9"&gt;9&lt;/a&gt;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#" aria-label="Goto Next Page"&gt;&raquo;&lt;/a&gt;&lt;/li&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/nav&gt;</span>
+                </code>
+            </pre>
+
+            <h3 class="demo-subtitle">Advanced Pagination</h3>
+            <p>For Data heavy Dashboards where you need more context, you can use the advanced pagination option. This one allows you to have more control over nagivation.</p>
+
+            <div class="fieldset-demo">
+                <nav class="pagination pagination-advanced" role="navigation" aria-label="Pagination Navigation">
+                    <ul class="list-pagination">
+                        <li><a href="#" aria-label="Goto Previous Page">&laquo; Previous</a></li>
+                        <li><a href="#" aria-label="Goto Page 5">5</a></li>
+                        <li><a href="#" aria-label="Goto Page 6">6</a></li>
+                        <li><a href="#" aria-label="Current Page, Page 7" aria-current="true">7</a></li>
+                        <li><a href="#" aria-label="Goto Page 8">8</a></li>
+                        <li><a href="#" aria-label="Goto Page 9">9</a></li>
+                        <li><a href="#" aria-label="Goto Next Page">Next &raquo;</a></li>
+                    </ul>
+                    <div class="pagination-jump">
+                        <input type="number" class="input input-tiny" value="7">
+                        <span> of 140</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+
+
+<!-- @import "includes/_footer" -->

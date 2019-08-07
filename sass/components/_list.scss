@@ -1,0 +1,16 @@
+/* 
+ * Lists
+ */
+
+ol,ul {
+	margin: 0;
+	padding: 0;
+}
+
+.list-stripped {
+	list-style-type: none;
+}
+
+.list-tiny {
+	font-size: $fontSmall-01;
+}

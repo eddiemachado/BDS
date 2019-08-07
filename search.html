@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/ds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/ds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+        		<header class="header site-header" role="header">
+        
+                    <!-- navigation toggle -->
+                    <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="nav-toggle-box">
+                            <span class="nav-toggle-inner"></span>
+                        </span>
+                    </button>
+        
+                </header> <!-- end header -->
+
+                <nav id="navigation" class="side-nav" role="navigation">
+        
+                    <div class="scrollable-container">
+        
+                        <h5 class="nav-header">General</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="index.html"><span class="nav-text">Overview</span></a></li>
+                            <li><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                            <li><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Style</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                            <li><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                            <li><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                            <li><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                            <li><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                            <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                            <li><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                            <li><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Components</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="accordian.html"><span class="nav-text">Accordian</span></a></li>
+                            <li class="dev"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                            <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                            <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                            <li class="dev"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                            <li><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                            <li><a href="date-picker.html"><span class="nav-text">Date Picker</span></a></li>
+                            <li><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                            <li><a href="file-uploader.html"><span class="nav-text">File Uploader</span></a></li>
+                            <li><a href="form.html"><span class="nav-text">Form</span></a></li>
+                            <li class="dev"><a href="list.html"><span class="nav-text">List</span></a></li>
+                            <li class="dev"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                            <li><a href="modal.html"><span class="nav-text">Modal</a></li>
+                            <li><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                            <li class="dev"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                            <li><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                            <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                            <li><a href="search.html"><span class="nav-text">Search</span></a></li>
+                            <li><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                            <li><a href="tags.html"><span class="nav-text">Tags</span></a></li>
+                            <li class="current dev"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                            <li class="ready"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                            <li><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                        </ul>
+        
+                    </div>
+        
+        
+                </nav> <!-- end nav -->
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Search</h1>
+                <p>These are the different way to show search on the site. In all contexts it should be presented the same so that the user sees and experiences the same consistentcy.</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>Add functional Search form markup</li>
+                  <li>Add documentation</li>
+                  <li>Autocomplete Options</li>
+                  <li>Empty States</li>
+                </ul>
+            </div>
+
+            <h3 class="demo-subtitle">Standard Search Form</h3>
+            <p>The search form shouldn't need a button so it's hidden within the form. The field also expands to 100% the width of it's container so if you need a larger one, just adjust the size of the container.</p>
+
+            <div class="fieldset-demo">
+  				
+                <form class="form-search" action="/results">
+                    <div class="field field-search">
+                        <span class="icon-search"></span>
+                        <input type="search" class="input input-search" placeholder="Search..." />
+                        <button type="button" class="btn btn-primary is-hidden" hidden>Search</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </main>
+
+
+
+    </body>
+
+</html>

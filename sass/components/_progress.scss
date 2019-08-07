@@ -1,0 +1,72 @@
+/* 
+ * Progress
+ */
+
+
+.progress-container {
+	position: relative;
+}
+
+.progress {
+	appearance: none;
+	border: none;
+	position: relative;
+	margin: 0;
+  	height: 16px;
+  	border-radius: $radii-02;
+  	background-color: $colUI-02;
+  	color: $colPrimary-01;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.progress::-webkit-progress-bar {
+  	border-radius: $radii-02;
+  	background-color: $colUI-02;
+  	color: $colPrimary-01;
+}
+
+.progress::-webkit-progress-value {
+	position: relative;
+	z-index: 200;
+  	border-radius: $radii-02 0 0 $radii-02;
+	background-image: linear-gradient(90deg, rgba(49,27,146,1) 0%, rgba(1,87,155,1) 100%);
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.progress-full-width {
+	width: 100%;
+	display: block;
+}
+
+.progress-24 .progress {
+	height: 24px;
+}
+
+.progress-34 .progress {
+	height: 34px;
+}
+
+.progress-34 .progress-text-underlay,
+.progress-34 .progress-text-overlay {
+	line-height: 34px;
+}
+
+
+.progress-text-underlay,
+.progress-text-overlay {
+	display: block;
+	position: absolute;
+	left: 16px;
+	top: 0;
+}
+
+.progress-text-underlay {
+	color: $colText-02;
+	z-index: 100;
+}
+
+
+.progress-text-overlay {
+	color: $colTextInverse-02;
+	z-index: 300;
+}

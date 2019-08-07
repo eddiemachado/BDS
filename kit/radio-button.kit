@@ -1,0 +1,166 @@
+<!-- @import "includes/_head" -->
+
+        <!-- @import "includes/_header" -->
+
+        <!-- @import "includes/_nav" -->
+
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Radio Button</h1>
+                <p>This is the description</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>ARIA Checkbox: <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/radio/radio-2/radio-2.html" target="_blank">Info Here</a></li>
+                </ul>
+            </div>
+
+            <h3 class="demo-subtitle">Radio Options</h3>
+            <p>Be sure to put radio buttons into a group. This way you can be sure they will function consistently.</p>
+
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <h4 class="field-group-label">Radio Group Label</h4>
+                    <ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label">
+                        <li>
+                            <input id="radio-1" class="radio" type="radio" value="1" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-1" class="radio-label">Option 1</label>
+                        </li>
+                        <li>
+                            <input id="radio-2" class="radio" type="radio" value="2" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-2" class="radio-label">Option 2</label>
+                        </li>
+                        <li>
+                            <input id="radio-3" class="radio" type="radio" value="3" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-3" class="radio-label">Option 3</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;h4 class="field-group-label"&gt;Radio Group Label&lt;/h4&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label"&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-1" class="radio" type="radio" value="1" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-1" class="radio-label"&gt;Option 1&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-2" class="radio" type="radio" value="2" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-2" class="radio-label"&gt;Option 2&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-3" class="radio" type="radio" value="3" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-3" class="radio-label"&gt;Option 3&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+
+            <h3 class="demo-subtitle">Auto Selecting a Radio Option</h3>
+            <p>To automatically select an option, toggle the <span class="code-inline">aria-checked="false"</span> attribute to be <span class="code-inline">aria-checked="true"</span>. This can be changed by the user if they select another option.</p>
+
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <h4 class="field-group-label">Radio Group Label</h4>
+                    <ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label">
+                        <li>
+                            <input id="radio-5" class="radio" type="radio" value="5" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-5" class="radio-label">Option 1</label>
+                        </li>
+                        <li>
+                            <input id="radio-6" class="radio" type="radio" value="6" role="radio" aria-checked="true" name="radio" />
+                            <label for="radio-6" class="radio-label">Option 2</label>
+                        </li>
+                        <li>
+                            <input id="radio-7" class="radio" type="radio" value="7" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-7" class="radio-label">Option 3</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;h4 class="field-group-label"&gt;Radio Group Label&lt;/h4&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label"&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-5" class="radio" type="radio" value="5" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-5" class="radio-label"&gt;Option 1&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-6" class="radio" type="radio" value="6" role="radio" aria-checked="true" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-6" class="radio-label"&gt;Option 2&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-7" class="radio" type="radio" value="7" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-7" class="radio-label"&gt;Option 3&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+            <h3 class="demo-subtitle">Disabled State</h3>
+            <p>To make an option unclickable simply add the <span class="code-inline">disabled</span> attribute to <span class="code-inline">.radio</span> input.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <h4 class="field-group-label">Radio Group Label</h4>
+                    <ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label">
+                        <li>
+                            <input id="radio-8" class="radio" type="radio" value="8" role="radio" aria-checked="false" name="radio" />
+                            <label for="radio-8" class="radio-label">Option 1</label>
+                        </li>
+                        <li>
+                            <input id="radio-9" class="radio" type="radio" value="9" role="radio" aria-checked="false" name="radio" disabled />
+                            <label for="radio-9" class="radio-label">Option 2 (disabled)</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;h4 class="field-group-label"&gt;Radio Group Label&lt;/h4&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;ul class="radio-group list-stripped" role="radiogroup" aria-labelledby="field-group-label"&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-8" class="radio" type="radio" value="8" role="radio" aria-checked="false" name="radio" /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-8" class="radio-label"&gt;Option 1&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="radio-9" class="radio" type="radio" value="9" role="radio" aria-checked="false" name="radio" disabled /&gt;</span>
+                                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="radio-9" class="radio-label"&gt;Option 2 (disabled)&lt;/label&gt;</span>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                        <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+
+            <h3 class="demo-subtitle">Accessibility &amp; ARIA Roles</h3>
+            <p>When updating a checkbox, we need to add the attributes for Accessibility. These attributes need to be updated using javascript. This code is located within the <strong>components.js</strong> file.</p>
+
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </code>
+            </pre>
+
+
+        </main>
+
+
+<!-- @import "includes/_footer" -->

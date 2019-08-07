@@ -1,0 +1,86 @@
+/* 
+ * Pagination
+ */
+
+.pagination {
+	display: inline-flex;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.list-pagination {
+	display: flex;
+	list-style: none;
+}
+
+.list-pagination li {
+	display: list-item;
+	margin: 0 4px;
+}
+
+.list-pagination a {
+	display: block;
+	line-height: 34px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	text-decoration: none;
+	color: $colText-02;
+	background-color: transparent;
+	border: 2px solid transparent;
+	border-radius: $radii-02;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.list-pagination a:hover {
+	background-color: $colPrimary-01;
+	color: $colTextInverse-01;
+}
+
+.list-pagination a[aria-current="true"] {
+	cursor: default;
+	border-color: $colPrimary-01;
+	color: $colSecondary-01;
+}
+
+.list-pagination a[aria-current="true"]:hover {
+	background-color: transparent;
+	color: $colPrimary-01;
+}
+
+.pagination-advanced {
+	background-color: $colUI-05;
+	box-shadow: $layRaised;
+	border-radius: $radii-01;
+	padding: 8px;
+	font-size: $fontSmall-02;
+}
+
+.pagination-advanced a {
+	width: auto;
+	padding: 0 8px;
+	min-width: 24px;
+	height: 40px;
+	line-height: 40px;
+	background-color: none;
+	border: none;
+	box-shadow: none;
+}
+
+.pagination-advanced a[aria-current="true"] {
+	font-weight: $fontWeight-Bold;
+}
+
+.pagination-jump {
+	display: inline-flex;
+	margin-left: 16px;
+	padding: 0 16px;
+	line-height: 40px;
+	color: $colText-03;
+	border-left: 1px solid $colUI-02;
+}
+
+.pagination-jump .input-tiny {
+	width: 52px;
+	text-align: center;
+}

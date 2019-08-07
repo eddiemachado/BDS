@@ -1,0 +1,220 @@
+/* 
+ * Input Fields
+ */
+
+
+.form {
+
+}
+
+.form .fieldset {
+}
+
+
+.field {
+	width: 100%;
+	max-width: 600px;
+	position: relative;
+	margin: 0 0 24px;
+}
+
+.field-block {
+	max-width: 100%;
+}
+
+.field-inline {
+	display: flex;
+	justify-content: space-between;
+}
+
+.field-group-label {
+	margin: 0 0 16px;
+}
+
+.field-label {
+	display: block;
+	font-size: $fontSmall-02;
+	font-weight: $fontWeight-Bold;
+	color: $colText-02;
+	line-height: 2em;
+	opacity: 0.88;
+}
+
+.field-inline-label {
+	display: inline-block;
+	line-height: 36px;
+}
+
+.field-inline-label + .input-container {
+	display: inline-block;
+
+}
+
+.input {
+	font-family: inherit;
+	-webkit-font-smoothing: antialiased;
+	font-weight: var($fontWeight-Normal);
+	width: 100%;
+	height: 36px;
+	line-height: 1.5em;
+	padding: 4px 4px 0 4px;
+	transition: opacity 180ms cubic-bezier(0.4, 0, 0.2, 1);
+	border: 0;
+	border-bottom: 2px solid $colUI-03;
+	background-color: transparent;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	transition: border-bottom $motionSpeed-01 $motionStandard;
+}
+
+textarea.input {
+	height: auto;
+	line-height: 1.651em;
+	resize: vertical; 
+}
+
+.input-block {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+.select-input {
+	background-color: transparent;
+	padding-right: 32px;
+	border-radius: 0;
+	line-height: 1.5em;
+	cursor: pointer;
+}
+
+.input:focus,
+.input:active {
+	outline: none;
+	border-bottom-color: $colPrimary-01;
+}
+
+
+.input-feedback {
+	visibility: hidden;
+	height: 0;
+	font-size: $fontSmall-01;
+	color: $colText-02;
+	margin: 4px 0 0;
+}
+
+.input-desc + .input-feedback {
+	height: auto;
+	visibility: visible;
+	color: $colText-03;
+}
+
+.input:disabled,
+.input[disabled] {
+	color: $colText-03;
+	cursor: not-allowed;
+}
+
+.input[disabled] + .input-feedback {
+	height: auto;
+	visibility: visible;
+}
+
+.input[disabled] + .input-feedback:before {
+	font-family: $fontIcon;
+	font-size: $fontBase-01;
+	content: "\e94a";
+	position: absolute;
+	right: 8px;
+	top: 36px;
+	color: $colText-03;
+}
+
+.input:disabled:focus,
+.input[disabled]:focus,
+.input:disabled:active,
+.input[disabled]:active {
+	border-bottom-color: $colUI-03;
+	background-color: transparent;
+}
+
+.input[valid] {
+	border-bottom-color: $colSuccess-01;
+}
+
+.input[valid] + .input-feedback {
+	height: auto;
+	visibility: visible;
+	color: $colSuccess-01;
+}
+
+.input[valid] + .input-feedback:before {
+	font-family: $fontIcon;
+	content: "\ea10";
+	position: absolute;
+	right: 8px;
+	top: 36px;
+	color: $colSuccess-01;
+}
+
+.input[invalid] {
+	border-bottom-color: $colDanger-01;
+}
+
+.input[invalid] + .input-feedback {
+	visibility: visible;
+	color: $colDanger-01;
+}
+
+.input[invalid] + .input-feedback:before {
+	font-family: $fontIcon;
+	content: "\ea0f";
+	position: absolute;
+	right: 8px;
+	top: 36px;
+	color: $colDanger-01;
+}
+
+/* adding icons to inputs */
+.field-label[class^="icon-"]:before, 
+.field-label[class*=" icon-"]:before {
+	font-size: $fontBase-03;
+	position: absolute;
+	left: 8px;
+	top: 37px;
+}
+
+.field-label[class^="icon-"] + .input, 
+.field-label[class*=" icon-"] + .input {
+	padding-left: 36px;
+}
+
+
+
+/**********
+SEARCH
+**********/
+
+.field-search {
+	margin: 0;
+}
+
+.input-search {
+	border: 1px solid $colUI-03;
+	background-color: $colUI-01;
+	border-radius: $radii-03;
+	padding: 0 8px 0 42px;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.input-search:focus {
+	background-color: $colUI-01;
+	border-color: $colPrimary-01;
+}
+
+.field-search .icon-search {
+	position: absolute;
+	left: 16px;
+	top: 8px;
+	opacity: 0.8;
+}

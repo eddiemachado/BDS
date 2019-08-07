@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/ds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/ds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+        		<header class="header site-header" role="header">
+        
+                    <!-- navigation toggle -->
+                    <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="nav-toggle-box">
+                            <span class="nav-toggle-inner"></span>
+                        </span>
+                    </button>
+        
+                </header> <!-- end header -->
+
+                <nav id="navigation" class="side-nav" role="navigation">
+        
+                    <div class="scrollable-container">
+        
+                        <h5 class="nav-header">General</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="index.html"><span class="nav-text">Overview</span></a></li>
+                            <li><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                            <li><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Style</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                            <li><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                            <li><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                            <li><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                            <li><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                            <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                            <li><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                            <li><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Components</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="accordian.html"><span class="nav-text">Accordian</span></a></li>
+                            <li class="dev"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                            <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                            <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                            <li class="dev"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                            <li><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                            <li><a href="date-picker.html"><span class="nav-text">Date Picker</span></a></li>
+                            <li><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                            <li><a href="file-uploader.html"><span class="nav-text">File Uploader</span></a></li>
+                            <li><a href="form.html"><span class="nav-text">Form</span></a></li>
+                            <li class="dev"><a href="list.html"><span class="nav-text">List</span></a></li>
+                            <li class="dev"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                            <li><a href="modal.html"><span class="nav-text">Modal</a></li>
+                            <li><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                            <li class="dev"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                            <li><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                            <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                            <li><a href="search.html"><span class="nav-text">Search</span></a></li>
+                            <li><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                            <li><a href="tags.html"><span class="nav-text">Tags</span></a></li>
+                            <li class="current dev"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                            <li class="ready"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                            <li><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                        </ul>
+        
+                    </div>
+        
+        
+                </nav> <!-- end nav -->
+
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Tabs</h1>
+                <p>This is the description</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>Add Tabs Options</li>
+                </ul>
+            </div>
+
+
+            <div class="fieldset-demo no-flex">
+
+                <nav class="tab-nav" role="navigation">
+                    <ul class="tab-nav-list" role="tablist">
+                        <li class="tab-nav-list-item" role="presentation">
+                            <a class="tab-nav-link" href="#" role="tab" data-target="tab-1" aria-controls="tab-content-1" aria-selected="true">Tab 1</a>
+                        </li>
+                        <li class="tab-nav-list-item" role="presentation">
+                            <a class="tab-nav-link" href="#" role="tab" data-target="tab-2" aria-controls="tab-content-2" aria-selected="false">Tab 2</a>
+                        </li>
+                        <li class="tab-nav-list-item" role="presentation">
+                            <a class="tab-nav-link" href="#" role="tab" data-target="tab-3" aria-controls="tab-content-3" aria-selected="false">Tab 3</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="tab-content-wrapper">
+                    <div id="tab-1" class="tab-content" role="tabpanel" aria-labelledby="tab-content-1" aria-hidden="false">
+                        <p>Content for first tab goes here.</p>
+                    </div>
+                    <div id="tab-2" class="tab-content" role="tabpanel" aria-labelledby="tab-content-2" aria-hidden="true">
+                        <p>Content for second tab goes here.</p>
+                    </div>
+                    <div id="tab-3" class="tab-content" role="tabpanel" aria-labelledby="tab-content-3" aria-hidden="true">
+                        <p>Content for third tab goes here.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="code-snippet">
+                <pre class="line-numbers">
+                    <span>&lt;nav class="tab-nav" role="navigation"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;ul class="tab-nav-list" role="tablist"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="tab-nav-list-item" role="presentation"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="tab-nav-link" href="#" role="tab" data-target="tab-1" aria-controls="tab-content-1" aria-selected="true"&gt;Tab 1&lt;/a&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="tab-nav-list-item" role="presentation"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="tab-nav-link" href="#" role="tab" data-target="tab-2" aria-controls="tab-content-2" aria-selected="false"&gt;Tab 2&lt;/a&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li class="tab-nav-list-item" role="presentation"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class="tab-nav-link" href="#" role="tab" data-target="tab-3" aria-controls="tab-content-3" aria-selected="false"&gt;Tab 3&lt;/a&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;/ul&gt;</span>
+                    <span>&lt;/nav&gt;</span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span>&lt;div class="tab-content-wrapper"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div id="tab-1" class="tab-content" role="tabpanel" aria-labelledby="tab-content-1" aria-hidden="false"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Content for the first tab goes here.&lt;/p&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div id="tab-2" class="tab-content" role="tabpanel" aria-labelledby="tab-content-2" aria-hidden="true"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Content for the second tab goes here.&lt;/p&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div id="tab-3" class="tab-content" role="tabpanel" aria-labelledby="tab-content-3" aria-hidden="true"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Content for the third tab goes here.&lt;/p&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </pre>
+            </div>
+
+
+
+
+        </main>
+
+
+
+
+    </body>
+
+</html>

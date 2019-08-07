@@ -1,0 +1,73 @@
+/* 
+ * Structured List
+ */
+
+
+.structured-list {
+	display: table;
+	overflow-x: auto;
+	overflow-y: hidden;
+	width: 100%;
+	min-width: 500px;
+	font-size: $fontSmall-02;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 24px;
+	background-color: transparent;
+}
+
+.structured-list.no-border .structured-list-row {
+	border-bottom-color: transparent;
+}
+
+.structured-list-header {
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+.structured-list-header .structured-list-row,
+.structured-list.no-border .structured-list-header .structured-list-row {
+	border-bottom: 3px solid $colSecondary-03;
+}
+
+.structured-list-row {
+	display: table-row;
+	border-collapse: collapse;
+	border-bottom: 1px solid $colUI-03;
+}
+
+.structured-list-row:nth-of-type(even) {
+	background-color: $colUI-02;
+}
+
+.structured-list-body .structured-list-row:last-of-type {
+	border-bottom: 0;
+}
+
+.structured-list-row-link {
+	text-decoration: none;
+	color: $colTextInverse-01;
+}
+
+.structured-list-th {
+	display: table-cell;
+	font-weight: $fontWeight-Bold;
+	text-align: left;
+	vertical-align: middle;
+	padding: 16px 32px 8px 0;
+}
+
+.structured-list-body {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+.structured-list-td {
+	position: relative;
+	display: table-cell;
+	padding: 16px 32px 16px 0;
+}
+
+.structured-list.no-border .structured-list-td {
+	padding: 24px 32px 24px 0;
+}

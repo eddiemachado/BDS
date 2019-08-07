@@ -1,0 +1,100 @@
+/* 
+ * Popover
+ */
+
+
+.popover-block {
+	position: relative;
+	width: 56px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.popover {
+	position: absolute;
+	background-color: $colUI-01;
+	padding: 8px;
+	max-width: 340px;
+	min-width: 120px;
+	border: 1px solid $colUI-02;
+	border-radius: $radii-02;
+	box-shadow: $layPop;
+}
+
+.popover-below {
+	border-top: 3px solid $colPrimary-01;
+}
+
+.popover-below:before {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 47%;
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid $colPrimary-01;
+}
+
+.list-popover li {
+	font-size: $fontSmall-02;
+	border-bottom: 1px solid $colUI-01;
+}
+
+.list-popover li:last-child {
+	border-bottom: 0;
+}
+
+.list-popover li a {
+	display: block;
+	text-decoration: none;
+	padding: 8px;
+	color: $colText-02;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.list-popover li:hover a {
+	color: $colPrimary-01;
+}
+
+
+/* smaller popover version */
+
+.popover-small .list-popover li {
+	font-size: $fontSmall-01;
+	border-bottom: 0;
+}
+
+.popover-small .list-popover li a {
+	padding: 4px 8px;
+}
+
+/* dark version */
+
+.popover-dark {
+	background-color: $colUI-10;
+	color: $colTextInverse-01;
+}
+
+.popover-dark.popover-below {
+	border-top: 3px solid $colUI-10;
+}
+
+.popover-dark.popover-below:before {
+	border-bottom: 7px solid $colUI-10;
+}
+
+.popover-dark .list-popover li {
+	border-bottom-color: $colUI-09;
+}
+
+.popover-dark .list-popover li a {
+	color: $colTextInverse-02;
+	font-weight: $fontWeight-Bold;
+}
+
+.popover-dark .list-popover li:hover a {
+	background-color: transparent;
+	color: $colPrimary-01;
+}

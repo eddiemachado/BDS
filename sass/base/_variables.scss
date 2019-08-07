@@ -1,0 +1,113 @@
+/* 
+ * Variables
+ * If you change something here, it's reflected across the whole stylesheet.
+ * Proceed w/ caution!
+ */
+
+
+// Brand Colors
+$colPrimary-01: #a2e0ff; 
+$colPrimary-02: #7fc8ea;
+$colPrimary-03: #21b5fd;
+$colPrimary-04: #008fd5;
+$colPrimary-05: #007ebc;
+
+$colSecondary-01: #aec0e6; 
+$colSecondary-02: #534e8e;
+$colSecondary-03: #534e8e;
+$colSecondary-04: #3a5898;
+$colSecondary-05: #2f4a84;
+
+// UI Colors
+$colUI-01: #fff;
+$colUI-02: #f5f7f8;
+$colUI-03: #e1e6e9;
+$colUI-04: #d2d8dc;
+$colUI-05: #c0c6ca;
+$colUI-05: #b8c3c9;
+$colUI-06: #a0aab1;
+$colUI-07: #89949b;
+$colUI-08: #68757e;
+$colUI-09: #4b5c66;
+$colUI-10: #374650;
+
+
+// Support Colors
+$colDanger-01: #ca3030;
+$colDanger-02: #D35555;
+	
+$colSuccess-01: #2cb34f;
+$colSuccess-02: #3FB95F;
+
+$colWarning-01: #ff702a;
+$colWarning-02: #ec601c;
+
+$colNote-01: #fffa95;
+$colNote-02: #ebe88e;
+
+$colTrueBlack: #000;
+$colTrueWhite: #fff;
+
+// Text Colors
+$colText-01: #273138;
+$colText-02: #313f48;
+$colText-03: #7B848A;
+
+$colTextInverse-01: #fff;
+$colTextInverse-02: #E3E8EB;
+
+// Font Stacks
+$fontStackPrimary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$fontStackSecondary: serif;
+$fontStackMono: monospace, 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier;
+$fontIcon: 'icomoon';
+
+// Font Sizes
+$fontSmall-01: 0.75rem;
+$fontSmall-02: 0.875rem;
+
+$fontBase-01: 1rem;
+$fontBase-02: 1.125rem;
+$fontBase-03: 1.25rem;
+$fontBase-04: 1.5rem;
+
+$fontMedium-01: 1.75rem;
+$fontMedium-02: 2rem;
+$fontMedium-03: 2.25rem;
+$fontMedium-04: 2.625rem;
+
+$fontLarge-01: 3rem;
+$fontLarge-02: 3.375rem;
+$fontLarge-03: 3.75rem;
+
+// Font Weight
+$fontWeight-Light: 300;
+$fontWeight-Normal: 400;
+$fontWeight-Bold: 700;
+
+// Layers
+$layFlat: none;
+$layRaised: 0 1px 2px 0 rgba(0,0,0,0.10);
+$layOverlay: 0 4px 8px 0 rgba(0,0,0,0.10);
+$laySticky: 0 6px 12px 0 rgba(0,0,0,0.10);
+$layPop: 0 12px 24px 0 rgba(0,0,0,0.10);
+
+// Motion
+$motionStandard: cubic-bezier(0.5, 0, 0.1, 1);
+$motionIn: cubic-bezier(0.25, 0, 1, 1);
+$motionOut: cubic-bezier(0, 0, 0.25, 1);
+
+// Speed
+$motionSpeed-01: 180ms;
+$motionSpeed-02: 260ms;
+$motionSpeed-03: 340ms;
+$motionSpeed-04: 680ms;
+$motionSpeed-05: 1360ms;
+
+// Border Radii
+$radii-01: 1px;
+$radii-02: 4px;
+$radii-03: 25px;
+$radii-04: 50%;
+
+

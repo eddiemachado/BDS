@@ -1,0 +1,88 @@
+/* 
+ * Modal
+ */
+
+
+
+.modal {
+	position: relative;
+	z-index: 9999; 
+	visibility: hidden;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.modal.is-open {
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: $colUI-10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	will-change: transform;
+	opacity: 0;
+	transition: opacity $motionSpeed-02 $motionStandard;
+}
+
+.modal-container {
+	position: relative;
+	z-index: 99999;
+	background-color: $colUI-01;
+	padding: 24px;
+	max-width: 640px;
+	max-height: 100vh;
+	border-radius: $radii-02;
+	overflow-y: auto;
+	box-sizing: border-box;
+	box-shadow: $layPop;
+	will-change: transform;
+	opacity: 0;
+	transition: opacity $motionSpeed-03 $motionStandard;
+}
+
+.modal.is-open .modal-overlay,
+.modal.is-open .modal-container {
+	opacity: 1;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 24px;
+}
+
+.modal-close {
+	background: transparent;
+	border: 0;
+	opacity: 0.8;
+}
+
+.modal-close:hover {
+	opacity: 1;
+}
+
+.modal-close:focus {
+	outline: none;
+}
+
+.modal-content {
+	margin: 24px 0;
+}
+
+/* smaller screens */
+@media screen and (max-width: 639px) { 
+
+	.modal-overlay {
+		padding: 8px;
+	}
+
+} /* end mq */

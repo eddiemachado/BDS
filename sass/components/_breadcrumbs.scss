@@ -1,0 +1,49 @@
+/* 
+ * Breadcrumbs
+ * Used for navigation on pages
+ */
+
+
+.breadcrumb {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.crumb {
+	margin-right: 12px;
+	display: flex;
+	font-size: $fontSmall-02;
+}
+
+.crumb:after {
+	content: '/';
+	margin-left: 12px;
+}
+
+.crumb:last-child:after {
+	content: '';
+}
+
+.crumb-link {
+	color: $colText-02;
+	align-items: center;
+	white-space: nowrap;
+	text-decoration: none;
+	transition: $motionSpeed-01 $motionStandard;
+	border-bottom: 2px solid transparent;
+}
+
+.crumb-link:hover,
+.crumb-link:focus {
+	outline: none;
+	color: $colPrimary-03;
+	border-bottom-color: $colPrimary-03;
+}
+
+.crumb-current {
+	color: $colText-02;
+	align-items: center;
+	white-space: nowrap;
+	border-bottom: 2px solid transparent;
+	cursor: default;
+}

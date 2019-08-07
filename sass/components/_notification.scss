@@ -1,0 +1,24 @@
+/* 
+ * Notification
+ */
+
+
+
+.notification {
+	border: 1px solid $colUI-02;
+	background-color: $colUI-01;
+	margin: 16px 0;
+	padding: 16px;
+	border-radius: $radii-02;
+}
+
+.notification ul,
+.notification ol {
+	padding-left: 24px;
+	margin: 8px 0 0;
+}
+
+.noti-red {
+	background-color: #FCEAEB;
+	border-color: #F9D5D8;
+}

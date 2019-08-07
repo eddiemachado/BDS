@@ -1,0 +1,178 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/ds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/ds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+        		<header class="header site-header" role="header">
+        
+                    <!-- navigation toggle -->
+                    <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="nav-toggle-box">
+                            <span class="nav-toggle-inner"></span>
+                        </span>
+                    </button>
+        
+                </header> <!-- end header -->
+
+                <nav id="navigation" class="side-nav" role="navigation">
+        
+                    <div class="scrollable-container">
+        
+                        <h5 class="nav-header">General</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="index.html"><span class="nav-text">Overview</span></a></li>
+                            <li><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                            <li><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Style</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                            <li><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                            <li><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                            <li><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                            <li><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                            <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                            <li><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                            <li><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Components</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="accordian.html"><span class="nav-text">Accordian</span></a></li>
+                            <li class="dev"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                            <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                            <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                            <li class="dev"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                            <li><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                            <li><a href="date-picker.html"><span class="nav-text">Date Picker</span></a></li>
+                            <li><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                            <li><a href="file-uploader.html"><span class="nav-text">File Uploader</span></a></li>
+                            <li><a href="form.html"><span class="nav-text">Form</span></a></li>
+                            <li class="dev"><a href="list.html"><span class="nav-text">List</span></a></li>
+                            <li class="dev"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                            <li><a href="modal.html"><span class="nav-text">Modal</a></li>
+                            <li><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                            <li class="dev"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                            <li><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                            <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                            <li><a href="search.html"><span class="nav-text">Search</span></a></li>
+                            <li><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                            <li><a href="tags.html"><span class="nav-text">Tags</span></a></li>
+                            <li class="current dev"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                            <li class="ready"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                            <li><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                        </ul>
+        
+                    </div>
+        
+        
+                </nav> <!-- end nav -->
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Layers</h1>
+                <p>This is how to present content and hierarchy though depth. You can use these classes for things like sticky navs, modals, or tooltips. You can also use them as ways to elevate cards and content.</p>
+            </div>
+
+            <div class="fieldset-demo">
+                
+                <div class="demo-tile layout-flat"><span>Flat</span></div>
+                <div class="demo-tile layout-raised"><span>Raised</span></div>
+                <div class="demo-tile layout-overlay"><span>Overlay</span></div>
+                <div class="demo-tile layout-sticky"><span>Sticky</span></div>
+                <div class="demo-tile layout-pop"><span>Pop</span></div>
+
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="demo-tile <em>layout-flat</em>"&gt;&lt;span&gt;Flat&lt;/span&gt;&lt;/div&gt;</span>
+                    <span>&lt;div class="demo-tile <em>layout-raised</em>"&gt;&lt;span&gt;Raised&lt;/span&gt;&lt;/div&gt;</span>
+                    <span>&lt;div class="demo-tile <em>layout-overlay</em>"&gt;&lt;span&gt;Overlay&lt;/span&gt;&lt;/div&gt;</span>
+                    <span>&lt;div class="demo-tile <em>layout-sticky</em>"&gt;&lt;span&gt;Sticky&lt;/span&gt;&lt;/div&gt;</span>
+                    <span>&lt;div class="demo-tile <em>layout-pop</em>"&gt;&lt;span&gt;Pop&lt;/span&gt;&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+            <h3 class="demo-subtitle">Adding styles to CSS</h3>
+            <p>You can also use the CSS variables to apply these styles. They are already added to many components by default, but you can add these styles to any custom element if you choose.</p>
+
+            <section class="structured-list">
+                <div class="structured-list-header">
+                    <div class="structured-list-row">
+                        <div class="structured-list-th">Layer</div>
+                        <div class="structured-list-th">Class</div>
+                        <div class="structured-list-th">Sass Variable</div>
+                        <div class="structured-list-th">Style</div>
+                    </div>
+                </div>
+                <div class="structured-list-body">
+                    <div class="structured-list-row">
+                        <div class="structured-list-td">Flat</div>
+                        <div class="structured-list-td">.layer-flat</div>
+                        <div class="structured-list-td">$layFlat</div>
+                        <div class="structured-list-td">box-shadow: none</div>
+                    </div>
+                    <div class="structured-list-row">
+                        <div class="structured-list-td">Raised</div>
+                        <div class="structured-list-td">.layer-raised</div>
+                        <div class="structured-list-td">$layRaised</div>
+                        <div class="structured-list-td">box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10)</div>
+                    </div>
+                    <div class="structured-list-row">
+                        <div class="structured-list-td">Overlay</div>
+                        <div class="structured-list-td">.layer-overlay</div>
+                        <div class="structured-list-td">$layOverlay</div>
+                        <div class="structured-list-td">box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10)</div>
+                    </div>
+                    <div class="structured-list-row">
+                        <div class="structured-list-td">Sticky</div>
+                        <div class="structured-list-td">.layer-sticky</div>
+                        <div class="structured-list-td">$laySticky</div>
+                        <div class="structured-list-td">box-shadow: 0 6px 12px 0 rgba(0,0,0,0.10)</div>
+                    </div>
+                    <div class="structured-list-row">
+                        <div class="structured-list-td">Pop</div>
+                        <div class="structured-list-td">.layer-pop</div>
+                        <div class="structured-list-td">$layPop</div>
+                        <div class="structured-list-td">box-shadow: 0 12px 24px 0 rgba(0,0,0,0.10)</div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+
+    </body>
+
+</html>

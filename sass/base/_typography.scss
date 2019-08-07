@@ -1,0 +1,72 @@
+/* 
+ * Typography
+ * The type scale for copy and headlines.
+ */
+
+
+h1, .h1 {
+	font-size: $fontMedium-03;
+	font-weight: $fontWeight-Normal;
+	line-height: 1.25;
+	margin: 0;
+}
+
+h2, .h2 {
+	font-size: $fontMedium-01;
+	font-weight: $fontWeight-Normal;
+	line-height: 1.25;
+	margin: 0;
+}
+
+h3, .h3 {
+	font-size: $fontBase-02;
+	font-weight: $fontWeight-Normal;
+	line-height: 1.25;
+	margin: 0;
+}
+
+h4, .h4 {
+	font-size: $fontBase-01;
+	font-weight: $fontWeight-Bold;
+	line-height: 1.25;
+	margin: 0;
+}
+
+strong, .strong {
+	font-weight: $fontWeight-Bold;
+}
+
+.base {
+	font-size: $fontBase-01;
+}
+
+small, .small, .font-small-02 {
+	font-size: $fontSmall-02;
+}
+
+.xsmall, .font-small-01 {
+	font-size: $fontSmall-01;
+}
+
+code, .code {
+	font-size: $fontBase-01;
+	line-height: 1.5em;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.font-base-01 { font-size: $fontBase-01; }
+.font-base-02 { font-size: $fontBase-02; }
+.font-base-03 { font-size: $fontBase-03; }
+.font-base-04 { font-size: $fontBase-04; }
+.font-medium-01 { font-size: $fontMedium-01; }
+.font-medium-02 { font-size: $fontMedium-02; }
+.font-medium-03 { font-size: $fontMedium-03; }
+.font-medium-04 { font-size: $fontMedium-04; }
+.font-large-01 { font-size: $fontLarge-01; }
+.font-large-02 { font-size: $fontLarge-02; }
+.font-large-03 { font-size: $fontLarge-03; }
+
+

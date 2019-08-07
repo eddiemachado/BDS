@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/ds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/ds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+        		<header class="header site-header" role="header">
+        
+                    <!-- navigation toggle -->
+                    <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="nav-toggle-box">
+                            <span class="nav-toggle-inner"></span>
+                        </span>
+                    </button>
+        
+                </header> <!-- end header -->
+
+                <nav id="navigation" class="side-nav" role="navigation">
+        
+                    <div class="scrollable-container">
+        
+                        <h5 class="nav-header">General</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="index.html"><span class="nav-text">Overview</span></a></li>
+                            <li><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                            <li><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Style</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                            <li><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                            <li><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                            <li><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                            <li><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                            <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                            <li><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                            <li><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                        </ul>
+        
+                        <h5 class="nav-header">Components</h5>
+        
+                        <ul class="list stripped-list list-nav">
+                            <li><a href="accordian.html"><span class="nav-text">Accordian</span></a></li>
+                            <li class="dev"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                            <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                            <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                            <li class="dev"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                            <li><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                            <li><a href="date-picker.html"><span class="nav-text">Date Picker</span></a></li>
+                            <li><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                            <li><a href="file-uploader.html"><span class="nav-text">File Uploader</span></a></li>
+                            <li><a href="form.html"><span class="nav-text">Form</span></a></li>
+                            <li class="dev"><a href="list.html"><span class="nav-text">List</span></a></li>
+                            <li class="dev"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                            <li><a href="modal.html"><span class="nav-text">Modal</a></li>
+                            <li><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                            <li class="dev"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                            <li><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                            <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                            <li><a href="search.html"><span class="nav-text">Search</span></a></li>
+                            <li><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                            <li><a href="tags.html"><span class="nav-text">Tags</span></a></li>
+                            <li class="current dev"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                            <li class="ready"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                            <li><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                        </ul>
+        
+                    </div>
+        
+        
+                </nav> <!-- end nav -->
+
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>{{ componentName }}</h1>
+                <p>There are a few options to style lists in a custom way. For the most part these are default.</p>
+            </div>
+
+            <h3 class="demo-subtitle">Unordered List</h3>
+            <p>This is the standard markup for an unordered list. You still need to add the class <span class="inline-code">.list</span> to maintain consistency.</p>
+
+            <div class="fieldset-demo">
+                
+                <ul class="list">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                    <li>Item Four</li>
+                </ul>
+
+            </div>
+            <div class="code-example">
+                <pre class="line-numbers">
+                    <span>&lt;ul class="list"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item One&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Two&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Three&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Four&lt;/li&gt;</span>
+                    <span>&lt;/ul&gt;</span>
+                </pre>
+            </div>
+
+            <h3 class="demo-subtitle">Ordered List</h3>
+            <p>This is the standard markup for an ordered list. You still need to add the class <span class="inline-code">.list</span> to maintain consistency.</p>
+
+            <div class="fieldset-demo">
+                
+                <ol class="list">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                    <li>Item Four</li>
+                </ol>
+
+            </div>
+            <div class="code-example">
+                <pre class="line-numbers">
+                    <span>&lt;ol class="list"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item One&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Two&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Three&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Four&lt;/li&gt;</span>
+                    <span>&lt;/ol&gt;</span>
+                </pre>
+            </div>
+
+            <h3 class="demo-subtitle">Stripped List</h3>
+            <p>Add the class <span class="inline-code">.list-stripped</span> to remove any default styles to lists. This works with both list types <span class="inline-code">ul, ol</span>.</p>
+
+            <div class="fieldset-demo">
+                
+                <ol class="list list-stripped">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                    <li>Item Four</li>
+                </ol>
+
+            </div>
+            <div class="code-example">
+                <pre class="line-numbers">
+                    <span>&lt;ol class="list list-stripped"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item One&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Two&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Three&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Four&lt;/li&gt;</span>
+                    <span>&lt;/ol&gt;</span>
+                </pre>
+            </div>
+
+            <h3 class="demo-subtitle">Tiny List</h3>
+            <p>Add the class <span class="inline-code">.list-tiny</span> and the font size will be smaller. You can combine this with any of the above markup <span class="inline-code">ul, ol</span> or styles.</p>
+
+            <div class="fieldset-demo">
+                
+                <ol class="list list-stripped list-tiny">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                    <li>Item Four</li>
+                </ol>
+
+            </div>
+            <div class="code-example">
+                <pre class="line-numbers">
+                    <span>&lt;ol class="list list-stripped list-tiny"&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item One&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Two&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Three&lt;/li&gt;</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Item Four&lt;/li&gt;</span>
+                    <span>&lt;/ol&gt;</span>
+                </pre>
+            </div>
+
+
+        </main>
+
+
+
+    </body>
+
+</html>

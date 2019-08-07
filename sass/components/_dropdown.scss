@@ -1,0 +1,25 @@
+/* 
+ * Dropdown
+ */
+
+.input-dropdown {
+	background-color: $colUI-02;
+	border: 1px solid $colUI-03;
+	border-bottom: 1px solid $colUI-03;
+	padding: 4px 8px;
+	cursor: pointer;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.input-dropdown:focus {
+	border-color: $colPrimary-01;
+}
+
+
+
+.select-arrow {
+	position: absolute;
+	right: 12px;
+	top: 44px;
+	color: $colText-02;
+}

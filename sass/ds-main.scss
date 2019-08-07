@@ -1,0 +1,86 @@
+/*
+ * Bones Design System
+ * Author: Eddie Machado
+ * This is the base stylesheet for your project. It will include the reset and all your components.
+ */
+
+
+// Normalize (Reset)
+// Based off normalize.css
+@import 'base/normalize';
+
+// Variables
+// These are used throughout the whole system. Be carefule when editing
+@import 'base/variables';
+
+// Typography
+// Setting the base styles for all type and components
+@import 'base/typography';
+
+// Icons
+// Generated using Icomoon
+@import 'base/icons';
+
+// Components
+// These are the shadows to be applied to elements to show depth. You can add this on anything needed.
+@import 'components/avatar';
+@import 'components/breadcrumbs';
+@import 'components/buttons';
+@import 'components/checkbox';
+@import 'components/code';
+@import 'components/data-table';
+@import 'components/dropdown';
+@import 'components/inputs';
+@import 'components/layout';
+@import 'components/links';
+@import 'components/list';
+@import 'components/loader';
+@import 'components/modal';
+@import 'components/notification';
+@import 'components/pagination';
+@import 'components/popover';
+@import 'components/progress';
+@import 'components/radio';
+@import 'components/seperator';
+@import 'components/structured-list';
+@import 'components/tabs';
+@import 'components/tags';
+@import 'components/toggle';
+
+
+
+/**********
+BODY
+Default styles for the page
+**********/
+
+
+
+body {
+	font-family: $fontStackPrimary;
+	font-size: $fontBase-01;
+	color: $colText-01;
+	background-color: $colTrueWhite;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+.push-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.is-hidden,
+[aria-hidden="true"] {
+	visibility: none;
+	display: none;
+}

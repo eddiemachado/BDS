@@ -1,0 +1,124 @@
+<!-- @import "includes/_head" -->
+
+        <!-- @import "includes/_header" -->
+
+        <!-- @import "includes/_nav" -->
+
+        <main class="has-side-nav">
+
+            <div class="demo-header">
+                <h1>Checkbox</h1>
+                <p>This is the description</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>ARIA Checkbox: <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/checkbox/checkbox-1/checkbox-1.html" target="_blank">Info Here</a></li>
+                </ul>
+            </div>
+
+            
+            <h3 class="demo-subtitle">Checkbox</h3>
+            <p>These should be contained within the <span class="inline-code">.field</span> container and use standard markup.</p>
+
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-1" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="1" name="checkbox-1" />
+                    <label for="checkbox-1" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-2" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="2" name="checkbox-2" />
+                    <label for="checkbox-2" class="checkbox-label">A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-1" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="1" name="checkbox-1" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-1" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-2" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="2" name="checkbox-2" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-2" class="checkbox-label"&gt;A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+            <h3 class="demo-subtitle">Auto Selecting a Checkbox Option</h3>
+            <p>To automatically select an option, toggle the <span class="code-inline">aria-checked="false"</span> attribute to be <span class="code-inline">aria-checked="true"</span>. This can be changed by the user if they unselect it.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox-3" />
+                    <label for="checkbox-3" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox-4" />
+                    <label for="checkbox-4" class="checkbox-label">A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-3" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-4" class="checkbox-label"&gt;A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+
+            <h3 class="demo-subtitle">Disabled State</h3>
+            <p>To make an option unclickable simply add the <span class="code-inline">disabled</span> attribute to <span class="code-inline">.checkbox</span> input.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox-3" />
+                    <label for="checkbox-3" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="4" name="checkbox-4" disabled />
+                    <label for="checkbox-4" class="checkbox-label">Checkbox label (disabled)</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-3" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-4" class="checkbox-label"&gt;Checkbox label (disabled)&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+
+            <h3 class="demo-subtitle">Accessibility &amp; ARIA Roles</h3>
+            <p>When updating a checkbox, we need to add the attributes for Accessibility. These attributes need to be updated using javascript. This code is located within the <strong>components.js</strong> file.</p>
+
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </code>
+            </pre>
+
+
+        </main>
+
+<!-- @import "includes/_footer" -->

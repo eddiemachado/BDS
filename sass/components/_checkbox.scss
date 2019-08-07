@@ -1,0 +1,72 @@
+/* 
+ * Checkbox
+ */
+
+
+.checkbox {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	padding-left: 32px;
+}
+
+.checkbox-label:before {
+	box-sizing: border-box;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 1px;
+	height: 20px;
+	width: 20px;
+	border: 2px solid $colUI-03;
+	background-color: $colUI-02;
+	border-radius: $radii-01;
+}
+
+.checkbox-label:after {
+	content: '';
+	width: 10px;
+	height: 5px;
+	background: none;
+	border-left: 2px solid $colTextInverse-01;
+	border-bottom: 2px solid $colTextInverse-01;
+	position: absolute;
+	transform: scale(0) rotate(-45deg);
+	left: 4px;
+	top: 6px;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.checkbox[aria-checked="true"] + .checkbox-label:before,
+.checkbox:checked + .checkbox-label:before {
+	background-color: $colPrimary-01;
+	border-color: $colPrimary-01;
+}
+
+.checkbox:not(:checked) + .checkbox-label:after {
+	opacity: 0;
+	transform: scale(0) rotate(-45deg);
+}
+
+.checkbox[aria-checked="true"] + .checkbox-label:after,
+.checkbox:checked + .checkbox-label:after {
+	opacity: 1;
+	transform: scale(1) rotate(-45deg);
+}
+
+.checkbox[disabled] {
+	background-color: $colUI-02;
+	border-color: $colUI-02;
+}
+
+.checkbox[disabled] + .checkbox-label {
+	cursor: not-allowed;
+	color: $colText-03;
+}

@@ -1,0 +1,25 @@
+/* 
+ * Layers
+ * These are the shadows to be applied to elements to show depth. You can add this on anything needed.
+ */
+
+
+.layout-flat {
+	box-shadow: $layFlat;
+}
+
+.layout-raised {
+	box-shadow: $layRaised;
+}
+
+.layout-overlay {
+	box-shadow: $layOverlay;
+}
+
+.layout-sticky {
+	box-shadow: $laySticky;
+}
+
+.layout-pop {
+	box-shadow: $layPop;
+}

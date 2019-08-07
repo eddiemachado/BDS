@@ -1,0 +1,84 @@
+/* 
+ * Toggle
+ */
+
+.toggle {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+	visibility: visible;
+	white-space: nowrap;
+}
+
+.toggle-actions {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin: 1rem 0;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.toggle-bg {
+	position: relative;
+	width: 48px;
+}
+
+.toggle-bg:before,
+.toggle-bg:after {
+	content: '';
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+
+.toggle-bg:before {
+	width: 100%;
+	height: 24px;
+	top: -10px;
+	background-color: $colUI-03;
+	border-radius: 12px;
+}
+
+.toggle-bg:after {
+	border: 2px solid $colUI-03;
+	top: -12px;
+	width: 24px;
+	height: 24px;
+	background-color: $colUI-01;
+	border-radius: $radii-03;
+
+}
+
+.toggle-left,
+.toggle-right {
+	position: relative;
+}
+
+.toggle-left {
+	margin-right: 4px;
+}
+
+.toggle-right {
+	margin-left: 4px;
+}
+
+
+/* checked */
+.toggle[aria-checked="true"] + .toggle-actions .toggle-bg:before,
+.toggle:checked + .toggle-actions .toggle-bg:before {
+	background-color: $colPrimary-01;
+}
+
+.toggle[aria-checked="true"] + .toggle-actions .toggle-bg:after,
+.toggle:checked + .toggle-actions .toggle-bg:after {
+	transform: translateX(21px);
+	border-color: $colPrimary-01;
+}

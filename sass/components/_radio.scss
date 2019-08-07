@@ -1,0 +1,80 @@
+/* 
+ * Radio
+ */
+
+
+.radio-group {
+
+}
+
+.radio-group li {
+	margin-bottom: 8px;
+}
+
+.radio-group li:last-of-type {
+	margin-bottom: 0;
+}
+
+.radio {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.radio-label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	padding-left: 32px;
+}
+
+.radio-label:before {
+	box-sizing: border-box;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 1px;
+	height: 20px;
+	width: 20px;
+	border: 2px solid $colUI-03;
+	background-color: $colUI-02;
+	border-radius: $radii-03;
+}
+
+.radio-label:after {
+	content: '';
+	width: 14px;
+	height: 14px;
+	background-color: $colPrimary-01;
+	border-radius: $radii-03;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+	transition: $motionSpeed-01 $motionStandard;
+}
+
+.radio[aria-checked="true"] + .radio-label:before,
+.radio:checked + .radio-label:before {
+	background-color: $colPrimary-01;
+	border-color: $colUI-02;
+}
+
+.radio[aria-checked="true"] + .radio-label:after,
+.radio:checked + .radio-label:after {
+	opacity: 1;
+}
+
+.radio:not(:checked) + .radio-label:after {
+	opacity: 0;
+}
+
+.radio[disabled] {
+	background-color: $colUI-02;
+	border-color: $colUI-02;
+}
+
+.radio[disabled] + .radio-label {
+	cursor: not-allowed;
+	color: $colText-03;
+}

@@ -1,0 +1,69 @@
+/* 
+ * Tabs
+ */
+
+
+.tab-nav {
+	display: block;
+	background-color: $colUI-02;
+}
+
+.tab-nav-list {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	border-top: 1px solid $colUI-03;
+	border-bottom: 1px solid $colUI-03;
+}
+
+.tab-nav-list-item {
+	border-left: 1px solid $colUI-03;
+}
+
+.tab-nav-list-item:last-of-type {
+	border-right: 1px solid $colUI-03;;
+}
+
+.tab-nav-link {
+	display: block;
+	position: relative;
+	padding: 16px 36px;
+	text-decoration: none;
+	color: $colText-02;
+	transition: border-color $motionSpeed-01 $motionStandard;
+}
+
+.tab-nav-link:hover {
+	color: $colText-01;
+	border-bottom-color: $colUI-04;
+}
+
+.tab-nav-link[aria-selected="true"] {
+	color: $colText-01;
+	background-color: $colUI-01;
+	border-top-color: $colPrimary-03;
+	border-top-color: $colUI-01;
+}
+
+.tab-nav-link[aria-selected="true"]:after {
+	content: '';
+	height: 1px;
+	width: 100%;
+	background-color: red;
+	bottom: 0;
+	left: 0;
+}
+
+.tab-nav-list-item [class*="icon-"]:before {
+	margin-right: 8px;
+}
+
+
+
+
+.tab-content-wrapper {
+	background-color: $colUI-01;
+	border: 1px solid $colUI-03;
+	border-top: 0;
+	padding: 24px;
+}

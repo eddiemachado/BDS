@@ -1,0 +1,255 @@
+/**********
+FORMS & FIELDS
+These are the button styles. The styles are inhereted from the variables used in the main file.
+**********/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/icons.eot?pha7ji');
+  src:  url('../icons/icons.eot?pha7ji#iefix') format('embedded-opentype'),
+    url('../icons/icons.ttf?pha7ji') format('truetype'),
+    url('../icons/icons.woff?pha7ji') format('woff'),
+    url('../icons/icons.svg?pha7ji#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-spinner:before {
+  content: "\e900";
+}
+.icon-loading:before {
+  content: "\e900";
+}
+.icon-busy:before {
+  content: "\e900";
+}
+.icon-wheel:before {
+  content: "\e900";
+}
+.icon-schedule:before {
+  content: "\e8b5";
+}
+.icon-add:before {
+  content: "\e145";
+}
+.icon-arrow_drop_down:before {
+  content: "\e5c5";
+}
+.icon-arrow_drop_up:before {
+  content: "\e5c7";
+}
+.icon-attach_file:before {
+  content: "\e226";
+}
+.icon-attach_money:before {
+  content: "\e227";
+}
+.icon-cloud_upload:before {
+  content: "\e2c3";
+}
+.icon-block:before {
+  content: "\e14b";
+}
+.icon-turned_in:before {
+  content: "\e8e6";
+}
+.icon-turned_in_not:before {
+  content: "\e8e7";
+}
+.icon-build:before {
+  content: "\e869";
+}
+.icon-photo_camera:before {
+  content: "\e412";
+}
+.icon-cancel:before {
+  content: "\e5c9";
+}
+.icon-check:before {
+  content: "\e5ca";
+}
+.icon-check_circle:before {
+  content: "\e86c";
+}
+.icon-close:before {
+  content: "\e5cd";
+}
+.icon-code:before {
+  content: "\e86f";
+}
+.icon-flash_on:before {
+  content: "\e3e7";
+}
+.icon-folder:before {
+  content: "\e2c7";
+}
+.icon-format_list_bulleted:before {
+  content: "\e241";
+}
+.icon-format_list_numbered:before {
+  content: "\e242";
+}
+.icon-format_quote:before {
+  content: "\e244";
+}
+.icon-question_answer:before {
+  content: "\e8af";
+}
+.icon-star:before {
+  content: "\e838";
+}
+.icon-hd:before {
+  content: "\e052";
+}
+.icon-home:before {
+  content: "\e88a";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}
+.icon-local_offer:before {
+  content: "\e54e";
+}
+.icon-room:before {
+  content: "\e8b4";
+}
+.icon-menu:before {
+  content: "\e5d2";
+}
+.icon-message:before {
+  content: "\e0c9";
+}
+.icon-more_horiz:before {
+  content: "\e5d3";
+}
+.icon-more_vert:before {
+  content: "\e5d4";
+}
+.icon-notifications:before {
+  content: "\e7f4";
+}
+.icon-notifications_active:before {
+  content: "\e7f7";
+}
+.icon-pause:before {
+  content: "\e034";
+}
+.icon-person:before {
+  content: "\e7fd";
+}
+.icon-photo_size_select_actual:before {
+  content: "\e432";
+}
+.icon-play_arrow:before {
+  content: "\e037";
+}
+.icon-playlist_add:before {
+  content: "\e03b";
+}
+.icon-playlist_add_check:before {
+  content: "\e065";
+}
+.icon-playlist_play:before {
+  content: "\e05f";
+}
+.icon-public:before {
+  content: "\e80b";
+}
+.icon-radio_button_checked:before {
+  content: "\e837";
+}
+.icon-remove:before {
+  content: "\e15b";
+}
+.icon-reorder:before {
+  content: "\e8fe";
+}
+.icon-search:before {
+  content: "\e8b6";
+}
+.icon-send:before {
+  content: "\e163";
+}
+.icon-settings:before {
+  content: "\e8b8";
+}
+.icon-share:before {
+  content: "\e80d";
+}
+.icon-star_border:before {
+  content: "\e83a";
+}
+.icon-subscriptions:before {
+  content: "\e064";
+}
+.icon-thumb_down:before {
+  content: "\e8db";
+}
+.icon-thumb_up:before {
+  content: "\e8dc";
+}
+.icon-title:before {
+  content: "\e264";
+}
+.icon-trending_down:before {
+  content: "\e8e3";
+}
+.icon-trending_up:before {
+  content: "\e8e5";
+}
+.icon-update:before {
+  content: "\e923";
+}
+.icon-videocam:before {
+  content: "\e04b";
+}
+.icon-view_headline:before {
+  content: "\e8ee";
+}
+.icon-view_list:before {
+  content: "\e8ef";
+}
+.icon-view_module:before {
+  content: "\e8f0";
+}
+.icon-volume_off:before {
+  content: "\e04f";
+}
+.icon-volume_up:before {
+  content: "\e050";
+}
+.icon-whatshot:before {
+  content: "\e80e";
+}
+.icon-work:before {
+  content: "\e8f9";
+}
+.icon-zoom_out_map:before {
+  content: "\e56b";
+}
+
