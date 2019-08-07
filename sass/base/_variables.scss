@@ -1,4 +1,4 @@
-/* 
+/*
  * Variables
  * If you change something here, it's reflected across the whole stylesheet.
  * Proceed w/ caution!
@@ -6,13 +6,13 @@
 
 
 // Brand Colors
-$colPrimary-01: #a2e0ff; 
+$colPrimary-01: #a2e0ff;
 $colPrimary-02: #7fc8ea;
 $colPrimary-03: #21b5fd;
 $colPrimary-04: #008fd5;
 $colPrimary-05: #007ebc;
 
-$colSecondary-01: #aec0e6; 
+$colSecondary-01: #aec0e6;
 $colSecondary-02: #534e8e;
 $colSecondary-03: #534e8e;
 $colSecondary-04: #3a5898;
@@ -31,11 +31,10 @@ $colUI-08: #68757e;
 $colUI-09: #4b5c66;
 $colUI-10: #374650;
 
-
 // Support Colors
 $colDanger-01: #ca3030;
 $colDanger-02: #D35555;
-	
+
 $colSuccess-01: #2cb34f;
 $colSuccess-02: #3FB95F;
 
@@ -53,8 +52,11 @@ $colText-01: #273138;
 $colText-02: #313f48;
 $colText-03: #7B848A;
 
-$colTextInverse-01: #fff;
+$colTextInverse-01: #FFF;
 $colTextInverse-02: #E3E8EB;
+
+$colLink-01: $colPrimary-03;
+$colLink-02: $colSecondary-03;
 
 // Font Stacks
 $fontStackPrimary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -109,5 +111,3 @@ $radii-01: 1px;
 $radii-02: 4px;
 $radii-03: 25px;
 $radii-04: 50%;
-
-

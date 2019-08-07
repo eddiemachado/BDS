@@ -1,4 +1,4 @@
-/* 
+/*
  * Typography
  * The type scale for copy and headlines.
  */
@@ -6,21 +6,21 @@
 
 h1, .h1 {
 	font-size: $fontMedium-03;
-	font-weight: $fontWeight-Normal;
+	font-weight: $fontWeight-Bold;
 	line-height: 1.25;
 	margin: 0;
 }
 
 h2, .h2 {
 	font-size: $fontMedium-01;
-	font-weight: $fontWeight-Normal;
+	font-weight: $fontWeight-Bold;
 	line-height: 1.25;
 	margin: 0;
 }
 
 h3, .h3 {
 	font-size: $fontBase-02;
-	font-weight: $fontWeight-Normal;
+	font-weight: $fontWeight-Bold;
 	line-height: 1.25;
 	margin: 0;
 }
@@ -68,5 +68,3 @@ code, .code {
 .font-large-01 { font-size: $fontLarge-01; }
 .font-large-02 { font-size: $fontLarge-02; }
 .font-large-03 { font-size: $fontLarge-03; }
-
-

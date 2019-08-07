@@ -1,10 +1,10 @@
-/* 
+/*
  * Code
  */
 
 
 .code-snippet {
-	background-color: $colUI-01;
+	background-color: $colUI-02;
 	border: 1px solid $colUI-03;
 	box-shadow: $layRaised;
 	white-space: normal;
@@ -21,7 +21,7 @@
 	line-height: 0;
 	padding: 16px;
     white-space: pre-wrap;
-    word-wrap: break-word; 
+    word-wrap: break-word;
 	counter-reset: line;
 	padding: 24px 16px;
 }

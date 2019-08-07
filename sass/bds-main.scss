@@ -44,7 +44,6 @@
 @import 'components/seperator';
 @import 'components/structured-list';
 @import 'components/tabs';
-@import 'components/tags';
 @import 'components/toggle';
 
 
@@ -59,9 +58,9 @@ Default styles for the page
 body {
 	font-family: $fontStackPrimary;
 	font-size: $fontBase-01;
+	line-height: 1.5;
 	color: $colText-01;
 	background-color: $colTrueWhite;
-	line-height: 1.5em;
 }
 
 

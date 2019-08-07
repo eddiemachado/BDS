@@ -1,4 +1,4 @@
-/* 
+/*
  * Breadcrumbs
  * Used for navigation on pages
  */
@@ -36,8 +36,8 @@
 .crumb-link:hover,
 .crumb-link:focus {
 	outline: none;
-	color: $colPrimary-03;
-	border-bottom-color: $colPrimary-03;
+	color: $colLink-01;
+	border-bottom-color: $colLink-01;
 }
 
 .crumb-current {

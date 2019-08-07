@@ -1,4 +1,4 @@
-/* 
+/*
  * Pagination
  */
 
@@ -33,23 +33,23 @@
 }
 
 .list-pagination a:hover {
-	background-color: $colPrimary-01;
+	background-color: $colPrimary-03;
 	color: $colTextInverse-01;
 }
 
 .list-pagination a[aria-current="true"] {
 	cursor: default;
-	border-color: $colPrimary-01;
-	color: $colSecondary-01;
+	border-color: $colPrimary-03;
+	font-weight: $fontWeight-Bold;
 }
 
 .list-pagination a[aria-current="true"]:hover {
 	background-color: transparent;
-	color: $colPrimary-01;
+	color: $colPrimary-03;
 }
 
 .pagination-advanced {
-	background-color: $colUI-05;
+	background-color: $colUI-02;
 	box-shadow: $layRaised;
 	border-radius: $radii-01;
 	padding: 8px;
@@ -77,7 +77,7 @@
 	padding: 0 16px;
 	line-height: 40px;
 	color: $colText-03;
-	border-left: 1px solid $colUI-02;
+	border-left: 1px solid $colUI-03;
 }
 
 .pagination-jump .input-tiny {

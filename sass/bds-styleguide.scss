@@ -1,9 +1,34 @@
+/*
+ * Bones Design System
+ * Author: Eddie Machado
+ * Styles for your Styleguide where you can see the details of the project.
+ */
 
 
 
-
-
+// pulling in variables from the project
 @import 'base/variables';
+
+// this is the grid used exclusively in the styleguide
+@import 'styleguide/grid';
+
+
+body {
+	font-family: $fontStackPrimary;
+	font-size: $fontBase-01;
+	line-height: 1.5;
+	color: $colText-01;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	float: none;
+}
+
+
+
 
 .header {
 	height: 56px;
@@ -16,109 +41,17 @@
 	box-shadow: $layRaised;
 }
 
-.logo-50 {
-	height: 50px;
-	width: auto;
+.bds-sg-navtitle {
+	font-size: $fontMedium-01;
+	line-height: 56px;
+	font-weight: $fontWeight-Bold
 }
 
-/**********
-NAV TOGGLE
-Hamburger Menu -> Close Button
-**********/
+.bds-title-bold {
+	color: $colPrimary-04;
 
-.nav-toggle {
-	display: inline-block;
-	overflow: visible;
-	margin: 0;
-	height: 56px;
-	width: 64px;
-	cursor: pointer;
-	transition-timing-function: linear;
-	transition-duration: .15s;
-	transition-property: opacity, filter;
-	text-transform: none;
-	color: inherit;
-	border: 0;
-	background-color: transparent;
-	border-right: 1px solid $colUI-03;
-	transition: $motionSpeed-01 $motionStandard;
 }
 
-.nav-toggle:focus {
-	outline: none;
-}
-
-.nav-toggle:hover {
-	background-color: $colPrimary-01;
-}
-
-.nav-toggle-box {
-	position: relative;
-	display: inline-block;
-	margin: 6px auto 0;
-	width: 20px;
-	height: 20px;
-}
-
-.nav-toggle-inner,
-.nav-toggle-inner:before,
-.nav-toggle-inner:after {
-	position: absolute;
-	width: 20px;
-	height: 2px;
-	transition-property: transform;
-	background-color: $colText-03;
-	border-radius: $radii-02;
-}
-
-.nav-toggle:hover .nav-toggle-inner,
-.nav-toggle:hover .nav-toggle-inner:before,
-.nav-toggle:hover .nav-toggle-inner:after {
-	background-color: $colUI-01;
-}
-
-.nav-toggle-inner {
-	top: 50%;
-	display: block;
-	margin-top: -2px;
-	transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	transition-duration: 75ms;
-}
-
-.nav-toggle-inner:before,
-.nav-toggle-inner:after {
-	display: block;
-	content: '';
-}
-
-.nav-toggle-inner:before {
-	transition: top 75ms ease 0.12s,opacity 75ms ease;
-	top: -5px;
-}
-
-.nav-toggle-inner:after {
-	transition: bottom 75ms ease .12s,transform 75ms cubic-bezier(.55,.055,.675,.19);
-	bottom: -5px;
-}
-
-/* when the menu is open */
-.is-open .nav-toggle-inner {
-	transition-delay: 0.12s;
-	transition-timing-function: cubic-bezier(.215,.61,.355,1);
-	transform: rotate(45deg);
-}
-
-.is-open .nav-toggle-inner:before {
-	top: 0;
-	transition: top 75ms ease,opacity 75ms ease .12s;
-	opacity: 0;
-}
-
-.is-open .nav-toggle-inner:after {
-	bottom: 0;
-	transition: bottom 75ms ease,transform 75ms cubic-bezier(.215,.61,.355,1) .12s;
-	transform: rotate(-90deg);
-}
 
 
 /**********
@@ -127,50 +60,19 @@ Used for main navigation on site
 **********/
 
 .side-nav {
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 100vh;
 	background-color: $colUI-01;
-	border-right: 1px solid $colUI-03;
-	width: 240px;
-	padding-top: 80px; 
+	padding: 80px 0;
 	z-index: 2000;
-	transition: left $motionSpeed-03 $motionStandard;
 }
 
-.side-nav:before {
-	content: '';
-	width: 4px;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100vh;
-	background: linear-gradient(0deg, rgba(49,27,146,1) 0%, rgba(1,87,155,1) 100%);
-}
 
-/* showing menu */
-.nav-open .side-nav {
-	left: 0;
-}
 
-.nav-closed .side-nav {
-	left: -260px;
-}
 
-.nav-closed .container {
-	padding-left: 0;
-}
 
-.scrollable-container {
-	height: 100vh;
-	padding-bottom: 160px;
-	overflow-y: scroll;
-}
 
 .list-nav {
 	font-size: $fontSmall-02;
-}	
+}
 
 .list-nav li {
 
@@ -246,6 +148,7 @@ Used for main navigation on site
 }
 
 .nav-text {
+	font-weight: $fontWeight-Bold;
 	display: inline-flex;
 	overflow: hidden;
 	white-space: nowrap;
@@ -265,7 +168,7 @@ Used for main navigation on site
 }
 
 /** on larger screens, show the side nav by default **/
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
 
 	.side-nav {
 		left: -260px;
@@ -275,11 +178,15 @@ Used for main navigation on site
 	.nav-open .side-nav {
 		left: 0;
 	}
-	
+
 }
 
 
 
+
+.bds-sg-main {
+	padding: 100px 0;
+}
 
 /**********
 DESIGN SYSTEM STYLES
@@ -301,14 +208,16 @@ These are the styles for the design system.
 .list-nav li.done .nav-text:after,
 .list-nav li.dev .nav-text:after {
 	font-size: $fontSmall-01;
+	color: $colTextInverse-01;
 	line-height: 1em;
 	margin-left: 8px;
 	padding: 4px 8px;
 	display: inline-flex;
 	position: absolute;
 	top: 12px;
+	right: 12px;
 	border-radius: $radii-02;
-} 
+}
 
 .list-nav li.dev .nav-text:after {
 	content: 'Dev';
@@ -317,35 +226,29 @@ These are the styles for the design system.
 
 .list-nav li.done .nav-text:after {
 	content: 'Done';
-	color: $colTextInverse-01;
 	background-color: $colSuccess-01;
-} 
-
-
-.has-side-nav {
-	padding: 128px 128px 368px 128px;
-	max-width: 1840px;
-	transition: padding-left $motionSpeed-03 $motionStandard;
-}
-
-.nav-open .has-side-nav {
-	padding-left: 368px;	
 }
 
 
-.demo-header {
+
+.bds-sg-header {
 	margin: 0 0 24px;
 	padding: 0 0 24px;
 	border-bottom: 1px solid $colUI-03;
+
+	h1 {
+		margin: 0 0 8px;
+	}
+
 }
 
-.demo-subtitle {
-	margin: 0 0 4px;
+.bds-sg-subtitle {
+	margin: 24px 0 8px;
 }
 
 
 .fieldset-demo {
-	background-color: #F2F7FC;
+	background-color: $colUI-02;
 	border: 1px solid $colUI-03;
 	padding: 24px;
 	margin: 16px 0 0;
@@ -355,7 +258,7 @@ These are the styles for the design system.
 	flex-wrap: wrap;
 }
 
-.fieldset-demo.demo-btn-blocks {
+.fieldset-demo.bds-sg-btn-blocks {
 	display: block;
 	text-align: center;
 }
@@ -364,7 +267,7 @@ These are the styles for the design system.
 	display: block;
 }
 
-.fieldset-demo.demo-btn-blocks .btn {
+.fieldset-demo.bds-sg-btn-blocks .btn {
 	display: block;
 	margin: 0 0 16px;
 }
@@ -375,7 +278,7 @@ These are the styles for the design system.
 }
 
 
-.demo-tile {
+.bds-sg-tile {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -486,16 +389,3 @@ These are the styles for the design system.
 .bg-support-success-02 { background-color: $colSuccess-02; }
 .bg-support-warning-01 { background-color: $colWarning-01; }
 .bg-support-warning-02 { background-color: $colWarning-02; }
-
-
-
-
-
-
-
-
-
-
-
-
-

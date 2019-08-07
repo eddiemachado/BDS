@@ -7,14 +7,30 @@
 		"uuidString": "038E0AA3-0A22-4936-9BB2-D43404EE953F"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31491",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitattributes",
+		"oF": 0
+		},
 	"/accordian.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/accordian.html",
+		"oF": 0
+		},
+	"/branding.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/branding.html",
 		"oF": 0
 		},
 	"/breadcrumb.html": {
@@ -65,40 +81,40 @@
 		"oAP": "/colors.html",
 		"oF": 0
 		},
-	"/css/ds-main.css": {
+	"/css/bds-main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/ds-main-min.css",
+		"oAP": "/css/bds-main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/ds-main.css.map": {
+	"/css/bds-main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/ds-main.css.map",
+		"oAP": "/css/bds-main.css.map",
 		"oF": 0
 		},
-	"/css/ds-styleguide.css": {
+	"/css/bds-styleguide.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/ds-styleguide-min.css",
+		"oAP": "/css/bds-styleguide-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/ds-styleguide.css.map": {
+	"/css/bds-styleguide.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/ds-styleguide.css.map",
+		"oAP": "/css/bds-styleguide.css.map",
 		"oF": 0
 		},
 	"/data-table.html": {
@@ -542,20 +558,28 @@
 		"oAP": "/design-system.textClipping",
 		"oF": 0
 		},
+	"/designers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/designers.html",
+		"oF": 0
+		},
+	"/developers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/developers.html",
+		"oF": 0
+		},
 	"/dropdown.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dropdown.html",
-		"oF": 0
-		},
-	"/file-uploader.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/file-uploader.html",
 		"oF": 0
 		},
 	"/form.html": {
@@ -651,12 +675,42 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/styleguide/grideset-overlay-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/styleguide/grideset-overlay-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/styleguide/grideset-overlay.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/styleguide/grideset-overlay-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/kit/accordian.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/accordian.html",
+		"oF": 2
+		},
+	"/kit/branding.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/branding.html",
 		"oF": 2
 		},
 	"/kit/breadcrumb.kit": {
@@ -715,20 +769,28 @@
 		"oAP": "/date-picker.html",
 		"oF": 2
 		},
+	"/kit/designers.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/designers.html",
+		"oF": 2
+		},
+	"/kit/developers.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/developers.html",
+		"oF": 2
+		},
 	"/kit/dropdown.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dropdown.html",
-		"oF": 2
-		},
-	"/kit/file-uploader.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/file-uploader.html",
 		"oF": 2
 		},
 	"/kit/form.kit": {
@@ -899,14 +961,6 @@
 		"oAP": "/tabs.html",
 		"oF": 2
 		},
-	"/kit/tags.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tags.html",
-		"oF": 2
-		},
 	"/kit/text-input.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1069,6 +1123,32 @@
 		"oAP": "/sass/base/_variables.css",
 		"oF": 0,
 		"oS": 0,
+		"uL": 1
+		},
+	"/sass/bds-main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/bds-main.css",
+		"oF": 3,
+		"oS": 3,
+		"uL": 1
+		},
+	"/sass/bds-styleguide.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/bds-styleguide.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"/sass/components/_avatar.scss": {
@@ -1344,19 +1424,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/components/_tags.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/sass/components/_tags.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/sass/components/_toggle.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1370,30 +1437,17 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/ds-main.scss": {
+	"/sass/styleguide/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/ds-main.css",
-		"oF": 3,
-		"oS": 3,
-		"uL": 1
-		},
-	"/sass/ds-styleguide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/ds-styleguide.css",
-		"oF": 3,
-		"oS": 3,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/styleguide/_grid.css",
+		"oF": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/search.html": {
@@ -1418,14 +1472,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/tabs.html",
-		"oF": 0
-		},
-	"/tags.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tags.html",
 		"oF": 0
 		},
 	"/text-input.html": {
@@ -1474,6 +1520,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -1485,6 +1532,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -1624,6 +1672,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -1655,6 +1706,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -1749,11 +1803,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -2758,6 +2811,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -3511,6 +3568,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
