@@ -1,12 +1,12 @@
-/* 
+/*
  * Notification
  */
 
 
 
 .notification {
-	border: 1px solid $colUI-02;
-	background-color: $colUI-01;
+	border: 1px solid $colUI-03;
+	background-color: $colUI-02;
 	margin: 16px 0;
 	padding: 16px;
 	border-radius: $radii-02;
@@ -18,7 +18,17 @@
 	margin: 8px 0 0;
 }
 
-.noti-red {
-	background-color: #FCEAEB;
-	border-color: #F9D5D8;
+.noti-danger {
+	background-color: $colDanger-03;
+	border-color: $colDanger-02;
+}
+
+.noti-success {
+	background-color: $colSuccess-03;
+	border-color: $colSuccess-02;
+}
+
+.noti-warning {
+	background-color: $colWarning-03;
+	border-color: $colWarning-02;
 }

@@ -86,7 +86,7 @@ Used for main navigation on site
 	line-height: 44px;
 	color: $colText-02;
 	text-decoration: none;
-	padding: 0 16px 0 24px;
+	padding: 0 16px 0 8px;
 	transition: background-color $motionSpeed-01 $motionStandard;
 }
 
@@ -117,9 +117,9 @@ Used for main navigation on site
 
 
 .nav-header {
-	margin: 32px 16px 8px 24px;
-	color: $colText-01;
-	font-weight: $fontWeight-Normal;
+	margin: 32px 16px 8px 8px;
+	color: $colText-03;
+	font-weight: $fontWeight-Bold;
 	font-size: $fontSmall-01;
 	text-transform: uppercase;
 	letter-spacing: 1px;
