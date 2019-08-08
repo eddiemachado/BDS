@@ -1,9 +1,9 @@
-/* 
+/*
  * Lists
  */
 
 ol,ul {
-	margin: 0;
+	margin: $spacing-text 0 $spacing-text ($spacing-text*2);
 	padding: 0;
 }
 

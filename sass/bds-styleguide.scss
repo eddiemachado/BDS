@@ -294,6 +294,7 @@ These are the styles for the design system.
 	align-items: flex-start;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	margin: 24px 0 0;
 }
 
 .ic-preview-block {
@@ -304,6 +305,11 @@ These are the styles for the design system.
 	justify-content: center;
 	margin: 0 0.3% 4em 0;
 	width: 19.7%;
+
+	.strong {
+		font-size: $fontSmall-02;
+	}
+
 }
 
 .ic-preview-tile {
@@ -311,7 +317,7 @@ These are the styles for the design system.
 	width: 100%;
 	height: 148px;
 	background-color: $colUI-01;
-	margin: 0 0 12px;
+	margin: 0 0 8px;
 }
 
 .ic-preview-tile i {
@@ -320,10 +326,6 @@ These are the styles for the design system.
 	text-align: center;
 	line-height: 148px;
 	color: $colText-02;
-}
-
-.ic-preview-block p {
-	margin: 0.25em 0 0 0;
 }
 
 .svg-dl-link {
@@ -385,7 +387,10 @@ These are the styles for the design system.
 
 .bg-support-danger-01 { background-color: $colDanger-01; }
 .bg-support-danger-02 { background-color: $colDanger-02; }
+.bg-support-danger-03 { background-color: $colDanger-03; }
 .bg-support-success-01 { background-color: $colSuccess-01; }
 .bg-support-success-02 { background-color: $colSuccess-02; }
+.bg-support-success-03 { background-color: $colSuccess-03; }
 .bg-support-warning-01 { background-color: $colWarning-01; }
 .bg-support-warning-02 { background-color: $colWarning-02; }
+.bg-support-warning-03 { background-color: $colWarning-03; }
