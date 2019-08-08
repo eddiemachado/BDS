@@ -1,4 +1,4 @@
-/* 
+/*
  * Tabs
  */
 
@@ -27,7 +27,7 @@
 .tab-nav-link {
 	display: block;
 	position: relative;
-	padding: 16px 36px;
+	padding: $spacing-16x $spacing-32x;
 	text-decoration: none;
 	color: $colText-02;
 	transition: border-color $motionSpeed-01 $motionStandard;
@@ -55,7 +55,7 @@
 }
 
 .tab-nav-list-item [class*="icon-"]:before {
-	margin-right: 8px;
+	margin-right: $spacing-8x;
 }
 
 
@@ -65,5 +65,5 @@
 	background-color: $colUI-01;
 	border: 1px solid $colUI-03;
 	border-top: 0;
-	padding: 24px;
+	padding: $spacing-24x;
 }

@@ -117,5 +117,13 @@ $radii-04: 50%;
 
 // Spacing
 
-$spacing-base: 4px;
-$spacing-text: ($spacing-base*2);
+$spacing-4x: 4px;
+$spacing-8x: ($spacing-4x*2);    // 8
+$spacing-12x: ($spacing-4x*3);   // 12
+$spacing-16x: ($spacing-4x*4);   // 16
+$spacing-24x: ($spacing-4x*6);   // 24
+$spacing-32x: ($spacing-4x*8);   // 32
+$spacing-48x: ($spacing-4x*12);  // 48
+$spacing-64x: ($spacing-4x*16);  // 64
+$spacing-96x: ($spacing-4x*24);  // 96
+$spacing-128x: ($spacing-4x*32); // 128

@@ -7,14 +7,14 @@
 .notification {
 	border: 1px solid $colUI-03;
 	background-color: $colUI-02;
-	margin: 16px 0;
+	margin: $spacing-16x 0;
 	padding: 16px;
 	border-radius: $radii-02;
 }
 
 .notification ul,
 .notification ol {
-	padding-left: 24px;
+	padding-left: $spacing-24x;
 	margin: 8px 0 0;
 }
 

@@ -1,4 +1,4 @@
-/* 
+/*
  * Modal
  */
 
@@ -6,7 +6,7 @@
 
 .modal {
 	position: relative;
-	z-index: 9999; 
+	z-index: 9999;
 	visibility: hidden;
 	opacity: 0;
 	overflow: hidden;
@@ -57,7 +57,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 0 24px;
+	margin: 0 0 $spacing-24x;
 }
 
 .modal-close {
@@ -75,14 +75,14 @@
 }
 
 .modal-content {
-	margin: 24px 0;
+	margin: $spacing-24x 0;
 }
 
 /* smaller screens */
-@media screen and (max-width: 639px) { 
+@media screen and (max-width: 639px) {
 
 	.modal-overlay {
-		padding: 8px;
+		padding: $spacing-8x;
 	}
 
 } /* end mq */

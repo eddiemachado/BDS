@@ -1,4 +1,4 @@
-/* 
+/*
  * Popover
  */
 
@@ -13,7 +13,7 @@
 .popover {
 	position: absolute;
 	background-color: $colUI-01;
-	padding: 8px;
+	padding: $spacing-8x;
 	max-width: 340px;
 	min-width: 120px;
 	border: 1px solid $colUI-02;
@@ -30,8 +30,8 @@
 	position: absolute;
 	top: -10px;
 	left: 47%;
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
 	border-bottom: 7px solid $colPrimary-01;
@@ -49,7 +49,7 @@
 .list-popover li a {
 	display: block;
 	text-decoration: none;
-	padding: 8px;
+	padding: $spacing-8x;
 	color: $colText-02;
 	transition: $motionSpeed-01 $motionStandard;
 }
@@ -67,7 +67,7 @@
 }
 
 .popover-small .list-popover li a {
-	padding: 4px 8px;
+	padding: $spacing-4x $spacing-8x;
 }
 
 /* dark version */

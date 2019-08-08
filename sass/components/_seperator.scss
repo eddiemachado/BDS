@@ -1,10 +1,10 @@
-/* 
+/*
  * Seperator
  */
 
 
 .seperator {
-	margin: 48px 0;
+	margin: $spacing-48x 0;
 	height: 1px;
 	width: 100%;
 	border: 0;
@@ -12,7 +12,7 @@
 }
 
 .seperator-16 {
-	margin: 16px 0;
+	margin: $spacing-16x 0;
 	height: 1px;
 	width: 100%;
 	border: 0;

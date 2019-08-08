@@ -1,4 +1,4 @@
-/* 
+/*
  * Structured List
  */
 
@@ -12,7 +12,7 @@
 	font-size: $fontSmall-02;
 	border-collapse: collapse;
 	border-spacing: 0;
-	margin-bottom: 24px;
+	margin-bottom: $spacing-24x;
 	background-color: transparent;
 }
 
@@ -54,7 +54,7 @@
 	font-weight: $fontWeight-Bold;
 	text-align: left;
 	vertical-align: middle;
-	padding: 16px 32px 8px 0;
+	padding: $spacing-16x $spacing-32x $spacing-8x 0;
 }
 
 .structured-list-body {
@@ -65,9 +65,9 @@
 .structured-list-td {
 	position: relative;
 	display: table-cell;
-	padding: 16px 32px 16px 0;
+	padding: $spacing-16x $spacing-32x $spacing-16x 0;
 }
 
 .structured-list.no-border .structured-list-td {
-	padding: 24px 32px 24px 0;
+	padding: $spacing-24x $spacing-32x $spacing-24x 0;
 }

@@ -1,4 +1,4 @@
-/* 
+/*
  * Dropdown
  */
 
@@ -6,7 +6,7 @@
 	background-color: $colUI-02;
 	border: 1px solid $colUI-03;
 	border-bottom: 1px solid $colUI-03;
-	padding: 4px 8px;
+	padding: $spacing-4x $spacing-8x;
 	cursor: pointer;
 	transition: $motionSpeed-01 $motionStandard;
 }

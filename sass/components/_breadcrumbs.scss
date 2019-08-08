@@ -10,14 +10,14 @@
 }
 
 .crumb {
-	margin-right: 12px;
+	margin-right: $spacing-12x;
 	display: flex;
 	font-size: $fontSmall-02;
 }
 
 .crumb:after {
 	content: '/';
-	margin-left: 12px;
+	margin-left: $spacing-12x;
 }
 
 .crumb:last-child:after {

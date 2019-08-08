@@ -8,7 +8,7 @@
 	border: 1px solid $colUI-03;
 	box-shadow: $layRaised;
 	white-space: normal;
-	margin: 24px 0;
+	margin: $spacing-24x 0;
 }
 
 .line-numbers {
@@ -19,11 +19,11 @@
 	font-size: $fontSmall-02;
 	color: $colText-02;
 	line-height: 0;
-	padding: 16px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+	padding: $spacing-16x;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 	counter-reset: line;
-	padding: 24px 16px;
+	padding: $spacing-24x $spacing-16x;
 }
 
 .line-numbers:before {
@@ -39,7 +39,7 @@
 .line-numbers span {
 	display: block;
 	line-height: 1.5em;
-	padding: 0 8px 0 52px;
+	padding: 0 $spacing-8x 0 $spacing-48x;
 }
 
 .line-numbers span:before {
@@ -51,7 +51,7 @@
 	left: 8px;
 	color: $colText-03;
 	width: 32px;
-	padding-left: 4px;
+	padding-left: $spacing-4x;
 }
 
 .line-numbers em {
@@ -75,6 +75,6 @@
 .code-inline {
 	background-color: $colUI-01;
 	border: 1px solid $colUI-03;
-	padding: 0 8px;
+	padding: 0 $spacing-8x;
 	border-radius: $radii-01;
 }

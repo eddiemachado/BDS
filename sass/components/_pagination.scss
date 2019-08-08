@@ -15,7 +15,7 @@
 
 .list-pagination li {
 	display: list-item;
-	margin: 0 4px;
+	margin: 0 $spacing-4x;
 }
 
 .list-pagination a {
@@ -52,13 +52,13 @@
 	background-color: $colUI-02;
 	box-shadow: $layRaised;
 	border-radius: $radii-01;
-	padding: 8px;
+	padding: $spacing-8x;
 	font-size: $fontSmall-02;
 }
 
 .pagination-advanced a {
 	width: auto;
-	padding: 0 8px;
+	padding: 0 $spacing-8x;
 	min-width: 24px;
 	height: 40px;
 	line-height: 40px;
@@ -73,8 +73,8 @@
 
 .pagination-jump {
 	display: inline-flex;
-	margin-left: 16px;
-	padding: 0 16px;
+	margin-left: $spacing-16x;
+	padding: 0 $spacing-16x;
 	line-height: 40px;
 	color: $colText-03;
 	border-left: 1px solid $colUI-03;

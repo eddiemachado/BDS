@@ -1,4 +1,4 @@
-/* 
+/*
  * Checkbox
  */
 
@@ -14,7 +14,7 @@
 	align-items: center;
 	cursor: pointer;
 	position: relative;
-	padding-left: 32px;
+	padding-left: $spacing-32x;
 }
 
 .checkbox-label:before {

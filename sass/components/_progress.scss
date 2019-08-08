@@ -1,4 +1,4 @@
-/* 
+/*
  * Progress
  */
 
@@ -12,10 +12,10 @@
 	border: none;
 	position: relative;
 	margin: 0;
-  	height: 16px;
-  	border-radius: $radii-02;
-  	background-color: $colUI-02;
-  	color: $colPrimary-01;
+  height: 16px;
+  border-radius: $radii-02;
+  background-color: $colUI-02;
+  color: $colPrimary-01;
 	transition: $motionSpeed-01 $motionStandard;
 }
 
@@ -28,7 +28,7 @@
 .progress::-webkit-progress-value {
 	position: relative;
 	z-index: 200;
-  	border-radius: $radii-02 0 0 $radii-02;
+  border-radius: $radii-02 0 0 $radii-02;
 	background-image: linear-gradient(90deg, rgba(49,27,146,1) 0%, rgba(1,87,155,1) 100%);
 	transition: $motionSpeed-01 $motionStandard;
 }

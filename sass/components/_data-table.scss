@@ -1,4 +1,4 @@
-/* 
+/*
  * Data Table
  */
 
@@ -7,6 +7,6 @@ dt {
 }
 
 dd {
-	margin: 0 0 8px;
+	margin: 0 0 $spacing-8x;
 	color: var($colText-02);
 }
