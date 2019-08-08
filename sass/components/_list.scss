@@ -12,5 +12,18 @@ ol,ul {
 }
 
 .list-tiny {
-	font-size: $fontSmall-01;
+	font-size: $fontSmall-02;
+}
+
+li {
+	margin: 0 0 $spacing-4x;
+}
+
+dt {
+	font-weight: $fontWeight-Bold;
+}
+
+dd {
+	color: $colText-02;
+	margin: 0 0 $spacing-12x;
 }
