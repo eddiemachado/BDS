@@ -205,6 +205,7 @@ These are the styles for the design system.
 	position: relative;
 }
 
+.list-nav li.new .nav-text:after,
 .list-nav li.done .nav-text:after,
 .list-nav li.dev .nav-text:after {
 	font-size: $fontSmall-01;
@@ -229,7 +230,10 @@ These are the styles for the design system.
 	background-color: $colSuccess-01;
 }
 
-
+.list-nav li.new .nav-text:after {
+	content: 'New';
+	background-color: $colPrimary-03;
+}
 
 .bds-sg-header {
 	margin: 0 0 24px;
@@ -354,7 +358,8 @@ These are the styles for the design system.
 }
 
 
-/** background color overrides **/
+// background color overrides
+// these are for the colors page
 
 .bg-primary-01 { background-color: $colPrimary-01; }
 .bg-primary-02 { background-color: $colPrimary-02; }

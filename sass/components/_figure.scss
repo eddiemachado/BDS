@@ -1,0 +1,23 @@
+
+
+.figure {
+  position: relative;
+  z-index: 8;
+  margin: $spacing-48x $spacing-24x;
+}
+
+picture {
+  display: block;
+}
+
+.figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  margin: $spacing-4x 0 0;
+  font-size: $fontSmall-02;
+  color: $colText-02;
+}
