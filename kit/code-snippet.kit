@@ -14,17 +14,10 @@
 
             <div class="bds-sg-header">
                 <h1>Code Snippet</h1>
-                <p>This is the description</p>
+                <p>A simple way to display code on a page. This is usually handled by a library or framework as it can be a bit tedious to setup. Eitherway here are some default styles.</p>
             </div>
 
-            <div class="notification noti-red">
-                <p>Things left to do</p>
-                <ul>
-                  <li>Add Code Snippet Options</li>
-                </ul>
-            </div>
-
-            <h3 class="bds-sg-subtitle">Basic &amp; Dark Options</h3>
+            <h2 class="bds-sg-subtitle">Basic &amp; Dark Options</h2>
             <p>Either one works, just be consistent in their use. To use the dark version, simple add the class <span class="code-inline">.code-snippet-dark</span>.</p>
 
             <pre class="code-snippet">
@@ -40,7 +33,7 @@
 
             <pre class="code-snippet code-snippet-dark">
                 <code class="line-numbers language-html">
-                    <span>&lt;pre class="code-snippet code-snippet-dark"&gt;</span>
+                    <span>&lt;pre class="code-snippet <em>code-snippet-dark</em>"&gt;</span>
                         <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;code class="line-numbers&gt;</span>
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...code here...</span>
                         <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/code&gt;</span>
@@ -48,10 +41,32 @@
                 </code>
             </pre>
 
-            <h3 class="bds-sg-subtitle">Formatting Options</h3>
-            <p>When adding code within the <span class="code-inline">pre</span> element, you'll need to use HTML entities in order for them to be displayed properly.</p>
+            <h2 class="bds-sg-subtitle">Formatting Options</h2>
+            <p>When adding code within the <span class="code-inline">pre</span> element, you'll need to use HTML entities in order for them to be displayed properly. To do this, you'll want to familiarize yourelf with <a href="https://entitycode.com/" target="_blank">HTML Entities</a>. There are also some ways to highlight things within a code snippet. To use these you <strong>do not</strong> need to use entity code around what you're highlighting.</p>
 
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                  <span>Using &lt;em&gt; around something in a code snippet will <em>highlight</em> it.</span>
+                </code>
+            </pre>
 
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                  <span>Using &lt;strong&gt; around something in a code snippet will make it <strong>bold</strong>.</span>
+                </code>
+            </pre>
+
+            <h2 class="bds-sg-subtitle">Inline Code Snippets</h2>
+            <p>You can also use inline options to highlight code within copy, as you've seen throughout this page.</p>
+
+            <div class="fieldset-demo">
+              <p>The element <span class="code-inline">.example</span> is a good way to show off this feature.</p>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                  <span>&lt;p&gt;The element &lt;span class="code-inline"&gt;.example&lt;/span&gt; is a good way to show off this feature.&lt;/p&gt;</span>
+                </code>
+            </pre>
 
         </main>
 

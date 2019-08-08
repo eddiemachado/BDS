@@ -56,16 +56,21 @@
 
 .line-numbers em {
 	background-color: $colNote-01;
+	color: $colText-02 !important;
 	font-style: normal;
 }
 
 .code-snippet-dark {
-	background-color: $colUI-04;
+	background-color: $colUI-10;
 	border: 1px solid $colText-01;
 }
 
 .code-snippet-dark .line-numbers:before {
-	color: $colUI-04;
+	background-color: $colUI-08;
+}
+
+.code-snippet-dark .line-numbers span:before {
+	color: $colUI-08;
 }
 
 .code-snippet-dark code {

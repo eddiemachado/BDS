@@ -1203,7 +1203,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/components/_code.scss": {
+	"/sass/components/_code-snippet.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1211,7 +1211,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/components/_code.css",
+		"oAP": "/sass/components/_code-snippet.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
