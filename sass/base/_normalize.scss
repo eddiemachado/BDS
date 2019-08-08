@@ -3,4 +3,4 @@ html {line-height: 1.15;-webkit-text-size-adjust: 100%;}body {margin: 0;}h1{font
 /* bonus reset styles */
 * { box-sizing: border-box; }
 p { margin: 0; }
-*[hidden], .is-hidden { display: none !important; }
+*[hidden], .is-hidden, [aria-hidden="true"] { visibility: none; display: none !important; }
