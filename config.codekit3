@@ -835,7 +835,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/components/_layout.scss": {
+	"/sass/components/_layer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -843,7 +843,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/components/_layout.css",
+		"oAP": "/sass/components/_layer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
