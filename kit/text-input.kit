@@ -4,7 +4,6 @@
 
     <!-- @import "includes/_nav" -->
 
-      <div class="db2-db4">
 
         <main class="bds-sg-main">
 
@@ -13,26 +12,23 @@
                 <p>Various usage of input fields.</p>
             </div>
 
-            <div class="notification noti-red">
-                <p>Things left to do</p>
+            <div class="notification noti-warning">
+                <h3>Things left to do</h3>
                 <ul>
                   <li>Validation Javascript</li>
                 </ul>
             </div>
 
-            <h3 class="bds-sg-subtitle">Text Input</h3>
-            <p>Text inputs can work with or without descriptions. To add a description you need to add the <span class="code-inline">.input-desc</span> class to the input. You'll also need to put the descriptive text in the <span class="code-inline">.input-feedback</span> div.</p>
+            <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Text Input</h2>
+            <p>Text inputs can work with or without descriptions.</p>
 
             <div class="fieldset-demo">
                 <div class="field">
                     <label for="text-1" class="field-label">Text Input Label</label>
                     <input id="text-1" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" />
                     <div class="input-feedback" data-feedback-field="text-1"></div>
-                </div>
-                <div class="field">
-                    <label for="text-2" class="field-label">Text Input Label</label>
-                    <input id="text-2" type="text" class="input input-text input-desc" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" />
-                    <div class="input-feedback" data-feedback-field="text-2">This is a field with a description</div>
                 </div>
             </div>
             <pre class="code-snippet">
@@ -43,90 +39,124 @@
                     <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-1"&gt;&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                     <span>&nbsp;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+          <h2 class="bds-sg-subtitle">Input Types</h2>
+          <p>There are several different input types that can be used in several different situations. There's probably more and there will be more in the future so keep an eye out when you're creating your forms.</p>
+
+          <div class="fieldset-demo">
+              <div class="field">
+                  <label for="password-1" class="field-label">Password Input</label>
+                  <input id="password-1" type="password" class="input input-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" />
+                  <span class="input-password-toggle"></span>
+                  <div class="input-feedback" data-feedback-field="password-1"></div>
+              </div>
+              <div class="field">
+                  <label for="email-1" class="field-label">Email Input</label>
+                  <input id="email-1" type="email" class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" />
+                  <div class="input-feedback" data-feedback-field="email-1"></div>
+              </div>
+              <div class="field">
+                  <label for="number-1" class="field-label">Number Input</label>
+                  <input id="number-1" type="number" class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" />
+                  <div class="input-feedback" data-feedback-field="number-1"></div>
+              </div>
+              <div class="field">
+                  <label for="url-1" class="field-label">URL Input</label>
+                  <input id="url-1" type="url" class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" />
+                  <div class="input-feedback" data-feedback-field="url-1"></div>
+              </div>
+          </div>
+          <pre class="code-snippet">
+              <code class="line-numbers">
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="password-1" class="field-label"&gt;Password Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="password-1" <em>type="password"</em> class="input text-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;span class="input-password-toggle"&gt;&lt;/span&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="password-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="email-1" class="field-label"&gt;Email Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="email-1" <em>type="email"</em> class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="email-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="number-1" class="field-label"&gt;Number Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="number-1" <em>type="number"</em> class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="number-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="url-1" class="field-label"&gt;URL Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="url-1" <em>type="url"</em> class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+              </code>
+          </pre>
+
+        </section>
+
+        <section class="bds-sg-block">
+
+
+        <h2 class="bds-sg-subtitle">Textarea</h2>
+        <p>These should work the same as standard text inputs. You can adjust the default height by changing the <span class="code-inline">rows</span> and <span class="code-inline">cols</span> attributes.</p>
+
+        <div class="fieldset-demo">
+            <div class="field">
+              <label for="textarea-1" class="field-label">Textarea Label</label>
+              <textarea id="textarea-1" class="input textarea" rows="3" cols="50" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"></textarea>
+              <div class="input-feedback" data-feedback-field="textarea-1"></div>
+            </div>
+        </div>
+        <pre class="code-snippet">
+            <code class="line-numbers">
+                <span>&lt;div class="field"&gt;</span>
+                <span>&nbsp;&nbsp;&lt;label for="textarea-1" class="field-label"&gt;Textarea Label&lt;/label&gt;</span>
+                <span>&nbsp;&nbsp;&lt;textarea id="textarea-1" class="input textarea" <em>rows="3"</em> <em>cols="50"</em> aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"&gt;&lt;/textarea&gt;</span>
+                <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="textarea-1"&gt;&lt;/div&gt;</span>
+                <span>&lt;/div&gt;</span>
+            </code>
+        </pre>
+
+      </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Input Descriptions</h2>
+            <p>To add a description you need to add the <span class="code-inline">.input-desc</span> class to the input. You'll also need to put the descriptive text in the <span class="code-inline">.input-feedback</span> div. This text would be replaced with the validation text if there is validation tied to the field.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-2" class="field-label">Text Input Label</label>
+                    <input id="text-2" type="text" class="input input-text input-desc" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" />
+                    <div class="input-feedback" data-feedback-field="text-2">This is a field with a description</div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
                     <span>&lt;div class="field"&gt;</span>
                     <span>&nbsp;&nbsp;&lt;label for="text-2" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="text-2" type="text" class="input text-input input-desc" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-2"&gt;This is a field with a description&lt;/div&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-2" type="text" class="input text-input <em>input-desc</em>" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-2"&gt;<em>This is a field with a description</em>&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                 </code>
             </pre>
 
-            <h3 class="bds-sg-subtitle">Textarea</h3>
-            <p>These should work the same as standard text inputs.</p>
+          </section>
 
-            <div class="fieldset-demo">
-                <div class="field">
-                  <label for="textarea-1" class="field-label">Textarea Label</label>
-                  <textarea id="textarea-1" class="input textarea" rows="3" cols="50" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"></textarea>
-                  <div class="input-feedback" data-feedback-field="textarea-1"></div>
-                </div>
-            </div>
-            <pre class="code-snippet">
-                <code class="line-numbers">
-                    <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="textarea-1" class="field-label"&gt;Textarea Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;textarea id="textarea-1" class="input textarea" rows="3" cols="50" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"&gt;&lt;/textarea&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="textarea-1"&gt;&lt;/div&gt;</span>
-                    <span>&lt;/div&gt;</span>
-                </code>
-            </pre>
 
-            <h3 class="bds-sg-subtitle">Input Types</h3>
-            <p>There are several different input types that can be used in several different situations.</p>
+          <section class="bds-sg-block">
 
-            <div class="fieldset-demo">
-                <div class="field">
-                    <label for="password-1" class="field-label">Password Input</label>
-                    <input id="password-1" type="password" class="input input-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" />
-                    <span class="input-password-toggle"></span>
-                    <div class="input-feedback" data-feedback-field="password-1"></div>
-                </div>
-                <div class="field">
-                    <label for="email-1" class="field-label">Email Input</label>
-                    <input id="email-1" type="email" class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" />
-                    <div class="input-feedback" data-feedback-field="email-1"></div>
-                </div>
-                <div class="field">
-                    <label for="number-1" class="field-label">Number Input</label>
-                    <input id="number-1" type="number" class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" />
-                    <div class="input-feedback" data-feedback-field="number-1"></div>
-                </div>
-                <div class="field">
-                    <label for="url-1" class="field-label">URL Input</label>
-                    <input id="url-1" type="url" class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" />
-                    <div class="input-feedback" data-feedback-field="url-1"></div>
-                </div>
-            </div>
-            <pre class="code-snippet">
-                <code class="line-numbers">
-                    <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="password-1" class="field-label"&gt;Password Input&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="password-1" type="password" class="input text-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;span class="input-password-toggle"&gt;&lt;/span&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="password-1"&gt;&lt;/div&gt;</span>
-                    <span>&lt;/div&gt;</span>
-                    <span>&nbsp;</span>
-                    <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="email-1" class="field-label"&gt;Email Input&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="email-1" type="email" class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="email-1"&gt;&lt;/div&gt;</span>
-                    <span>&lt;/div&gt;</span>
-                    <span>&nbsp;</span>
-                    <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="number-1" class="field-label"&gt;Number Input&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="number-1" type="number" class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="number-1"&gt;&lt;/div&gt;</span>
-                    <span>&lt;/div&gt;</span>
-                    <span>&nbsp;</span>
-                    <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="url-1" class="field-label"&gt;URL Input&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="url-1" type="url" class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-1"&gt;&lt;/div&gt;</span>
-                    <span>&lt;/div&gt;</span>
-                </code>
-            </pre>
 
-            <h3 class="bds-sg-subtitle">Validation</h3>
+            <h2 class="bds-sg-subtitle">Validation</h2>
             <p>Each input should be validated, either on form submission or inline. These are the positive states. To add this state, add the <span class="code-inline">valid</span> to the input. You can have an optional message simply by adding text inside the <span class="code-inline">.input-feedback</span> div. Below you can see versions where text was added and one where nothing was added.</p>
 
             <div class="fieldset-demo">
@@ -146,20 +176,24 @@
                 <code class="line-numbers">
                     <span>&lt;div class="field"&gt;</span>
                     <span>&nbsp;&nbsp;&lt;label for="text-3" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="text-3" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" valid /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-3"&gt;This is a success message&lt;/div&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-3" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>valid</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-3"&gt;<em>This is a success message</em>&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                     <span>&nbsp;</span>
                     <span>&lt;div class="field"&gt;</span>
                     <span>&nbsp;&nbsp;&lt;label for="text-4" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="text-4" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" valid /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-4" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>valid</em> /&gt;</span>
                     <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-4"&gt;&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                 </code>
             </pre>
 
-            <h3 class="bds-sg-subtitle">Invalid Fields</h3>
-            <p>Negative states work the same, you can simply add the <span class="code-inline">invalid</span> to the input. The feedback messages work the same as the valid states.</p>
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Invalid Fields</h2>
+            <p>Negative states work the same, you can simply add the <span class="code-inline">invalid</span> to the input. The feedback messages work the same as the valid states. I reccomend using the descriptions to help users understand what went wrong.</p>
 
             <div class="fieldset-demo">
                 <div class="field">
@@ -172,13 +206,17 @@
                 <code class="line-numbers">
                     <span>&lt;div class="field"&gt;</span>
                     <span>&nbsp;&nbsp;&lt;label for="text-5" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="text-5" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" invalid /&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-5"&gt;This is an error message&lt;/div&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-5" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>invalid</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-5"&gt;<em>This is an error message</em>&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                 </code>
             </pre>
 
-            <h3 class="bds-sg-subtitle">Disabled Fields</h3>
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Disabled Fields</h2>
             <p>By adding the <span class="code-inline">disabled</span> field to the input, the state will be uneditable. You can also add a descriptive message if you like by using the same methods as above.</p>
 
             <div class="fieldset-demo">
@@ -192,13 +230,17 @@
                 <code class="line-numbers">
                     <span>&lt;div class="field"&gt;</span>
                     <span>&nbsp;&nbsp;&lt;label for="text-6" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;input id="text-6" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" disabled /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-6" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>disabled</em> /&gt;</span>
                     <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-6"&gt;&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                 </code>
             </pre>
 
-            <h3 class="bds-sg-subtitle">Adding Icons to Inputs</h3>
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Adding Icons to Inputs</h2>
             <p>You can add an icon to any text input by adding the icon class to the <span class="code-inline">.field-label</span>. Below are some examples, as well as some with validation active.</p>
 
             <div class="fieldset-demo">
@@ -216,13 +258,13 @@
             <pre class="code-snippet">
                 <code class="line-numbers">
                     <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="text-1" class="field-label icon-github"&gt;Github Account URL&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-1" class="field-label <em>icon-github</em>"&gt;Github Account URL&lt;/label&gt;</span>
                     <span>&nbsp;&nbsp;&lt;input id="url-2" type="text" class="input input-url" aria-required="false" aria-label="Enter your Github URL" placeholder="http://github.com/username" /&gt;</span>
                     <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-2"&gt;&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
                     <span>&nbsp;</span>
                     <span>&lt;div class="field"&gt;</span>
-                    <span>&nbsp;&nbsp;&lt;label for="url-3" class="field-label icon-twitch"&gt;Twitch Account URL&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="url-3" class="field-label <em>icon-twitch</em>"&gt;Twitch Account URL&lt;/label&gt;</span>
                     <span>&nbsp;&nbsp;&lt;input id="url-3" type="text" class="input input-url input-desc" aria-required="false" aria-label="Enter your Twitch URL" placeholder="http://twitch.tv/username" value="http://twitch.tv/somedumbguy" valid /&gt;</span>
                     <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-3"&gt;This is a valid url&lt;/div&gt;</span>
                     <span>&lt;/div&gt;</span>
@@ -230,11 +272,10 @@
             </pre>
 
 
-
+          </section>
 
 
           </main> <!-- end main -->
 
-          </div> <!-- end grid db2-db4 -->
 
           <!-- @import "includes/_footer" -->

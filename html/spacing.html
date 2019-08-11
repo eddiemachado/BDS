@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/bds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/bds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+
+  		<header class="header site-header" role="header">
+  
+  			<div class="wrapper">
+  
+  						<h1 class="bds-sg-navtitle"><span class="bds-title-bold">B</span>ones <span class="bds-title-bold">D</span>esign <span class="bds-title-bold">S</span>ystem</h1>
+  
+  				</div> <!-- end wrapper -->
+  
+  		</header> <!-- end header -->
+  
+  		<div class="bds-sg-wrapper">
+  
+
+    
+    
+            <nav id="navigation" class="side-nav" role="navigation">
+    
+    
+                    <h5 class="nav-header">General</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="index.html"><span class="nav-text">Getting Started</span></a></li>
+                        <li class="dev"><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                        <li class="dev"><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Style</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                        <li class="done"><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                        <li class="dev"><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                        <li class="done"><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                        <li class="dev"><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                        <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                        <li class="dev"><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                        <li class="done"><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Components</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="done"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                        <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                        <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                        <li class="done"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                        <li class="dev"><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                        <li class="dev"><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                        <li class="dev"><a href="form.html"><span class="nav-text">Form</span></a></li>
+                        <li class="done"><a href="list.html"><span class="nav-text">List</span></a></li>
+                        <li class="done"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                        <li class="new"><a href="media.html"><span class="nav-text">Media</a></li>
+                        <li class="dev"><a href="modal.html"><span class="nav-text">Modal</a></li>
+                        <li class="done"><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                        <li class="done"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                        <li class="dev"><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                        <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                        <li class="dev"><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                        <li class="done"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                        <li class="done"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                        <li class="dev"><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                    </ul>
+    
+    
+    
+            </nav> <!-- end nav -->
+    
+
+
+        <main class="bds-sg-main">
+
+            <div class="bds-sg-header">
+                <h1>Spacing</h1>
+                <p>These are the units used throughout the site. You can easily adjust the base and all the other units will scale.</p>
+            </div>
+
+            <h2 class="bds-sg-subtitle">Spacing Scale</h2>
+            <p>I generally like to use 4 or 8 as my base unit. It makes the math easy and keeps thing feeling uniform.</p>
+            <p>Below is the spacing setup in this system, feel free to change it if you like.</p>
+            <p><strong>You can adjust these in the _variables.scss file.</strong></p>
+
+            <section class="structured-list no-border">
+      				<div class="structured-list-header">
+      					<div class="structured-list-row">
+      						<div class="structured-list-th">variable</div>
+      						<div class="structured-list-th">scale</div>
+      						<div class="structured-list-th">px</div>
+      					</div>
+      				</div>
+      				<div class="structured-list-body">
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-4x</div>
+      						<div class="structured-list-td">base</div>
+      						<div class="structured-list-td">4px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-8x</div>
+      						<div class="structured-list-td">2x</div>
+      						<div class="structured-list-td">8px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-12x</div>
+      						<div class="structured-list-td">3x</div>
+      						<div class="structured-list-td">12px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-16x</div>
+      						<div class="structured-list-td">4x</div>
+      						<div class="structured-list-td">16px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-24x</div>
+      						<div class="structured-list-td">6x</div>
+      						<div class="structured-list-td">24px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-32x</div>
+      						<div class="structured-list-td">8x</div>
+      						<div class="structured-list-td">32px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-48x</div>
+      						<div class="structured-list-td">8x</div>
+      						<div class="structured-list-td">48px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-64x</div>
+      						<div class="structured-list-td">16x</div>
+      						<div class="structured-list-td">64px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-96x</div>
+      						<div class="structured-list-td">24x</div>
+      						<div class="structured-list-td">96px</div>
+      					</div>
+      					<div class="structured-list-row">
+      						<div class="structured-list-td">$spacing-128x</div>
+      						<div class="structured-list-td">32x</div>
+      						<div class="structured-list-td">128px</div>
+      					</div>
+      				</div>
+      			</section>
+
+
+
+
+
+          </main> <!-- end main -->
+
+
+          
+          
+              </div> <!-- end wrapper -->
+          
+            </body>
+          </html>
+          

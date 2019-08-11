@@ -17,70 +17,6 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/accordian.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/accordian.html",
-		"oF": 0
-		},
-	"/branding.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/branding.html",
-		"oF": 0
-		},
-	"/breadcrumb.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/breadcrumb.html",
-		"oF": 0
-		},
-	"/button.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/button.html",
-		"oF": 0
-		},
-	"/checkbox.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/checkbox.html",
-		"oF": 0
-		},
-	"/code-snippet.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/code-snippet.html",
-		"oF": 0
-		},
-	"/color-pallate.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/color-pallate.txt",
-		"oF": 0
-		},
-	"/colors.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/colors.html",
-		"oF": 0
-		},
 	"/css/bds-main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -117,22 +53,6 @@
 		"oAP": "/css/bds-styleguide.css.map",
 		"oF": 0
 		},
-	"/data-table.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/data-table.html",
-		"oF": 0
-		},
-	"/date-picker.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/date-picker.html",
-		"oF": 0
-		},
 	"/demo-data/img/bones.jpg": {
 		"ft": 16384,
 		"iS": 78327,
@@ -152,52 +72,244 @@
 		"oAP": "/design-system.textClipping",
 		"oF": 0
 		},
-	"/designers.html": {
+	"/html/branding.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/designers.html",
+		"oAP": "/html/branding.html",
 		"oF": 0
 		},
-	"/developers.html": {
+	"/html/breadcrumb.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/developers.html",
+		"oAP": "/html/breadcrumb.html",
 		"oF": 0
 		},
-	"/dropdown.html": {
+	"/html/button.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dropdown.html",
+		"oAP": "/html/button.html",
 		"oF": 0
 		},
-	"/form.html": {
+	"/html/checkbox.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/form.html",
+		"oAP": "/html/checkbox.html",
 		"oF": 0
 		},
-	"/grid.html": {
+	"/html/code-snippet.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/grid.html",
+		"oAP": "/html/code-snippet.html",
 		"oF": 0
 		},
-	"/icons.html": {
+	"/html/colors.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/icons.html",
+		"oAP": "/html/colors.html",
+		"oF": 0
+		},
+	"/html/data-table.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/data-table.html",
+		"oF": 0
+		},
+	"/html/designers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/designers.html",
+		"oF": 0
+		},
+	"/html/developers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/developers.html",
+		"oF": 0
+		},
+	"/html/dropdown.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/dropdown.html",
+		"oF": 0
+		},
+	"/html/form.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/form.html",
+		"oF": 0
+		},
+	"/html/grid.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/grid.html",
+		"oF": 0
+		},
+	"/html/icons.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/icons.html",
+		"oF": 0
+		},
+	"/html/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/index.html",
+		"oF": 0
+		},
+	"/html/layers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/layers.html",
+		"oF": 0
+		},
+	"/html/list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/list.html",
+		"oF": 0
+		},
+	"/html/loading.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/loading.html",
+		"oF": 0
+		},
+	"/html/media.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/media.html",
+		"oF": 0
+		},
+	"/html/modal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/modal.html",
+		"oF": 0
+		},
+	"/html/motion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/motion.html",
+		"oF": 0
+		},
+	"/html/notification.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/notification.html",
+		"oF": 0
+		},
+	"/html/pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/pagination.html",
+		"oF": 0
+		},
+	"/html/progress-indicator.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/progress-indicator.html",
+		"oF": 0
+		},
+	"/html/radio-button.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/radio-button.html",
+		"oF": 0
+		},
+	"/html/spacing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/spacing.html",
+		"oF": 0
+		},
+	"/html/tabs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/tabs.html",
+		"oF": 0
+		},
+	"/html/text-input.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/text-input.html",
+		"oF": 0
+		},
+	"/html/toggle.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/toggle.html",
+		"oF": 0
+		},
+	"/html/tooltip.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/tooltip.html",
+		"oF": 0
+		},
+	"/html/typography.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/typography.html",
 		"oF": 0
 		},
 	"/icons/icons.eot": {
@@ -250,14 +362,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
 	"/js/components.js": {
 		"bF": 0,
 		"ft": 64,
@@ -269,23 +373,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/js/styleguide/gridset-overlay.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/js/styleguide/gridset-overlay-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/kit/branding.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/branding.html",
+		"oAP": "/html/branding.html",
 		"oF": 2
 		},
 	"/kit/breadcrumb.kit": {
@@ -293,7 +386,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/breadcrumb.html",
+		"oAP": "/html/breadcrumb.html",
 		"oF": 2
 		},
 	"/kit/button.kit": {
@@ -301,7 +394,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/button.html",
+		"oAP": "/html/button.html",
 		"oF": 2
 		},
 	"/kit/checkbox.kit": {
@@ -309,7 +402,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/checkbox.html",
+		"oAP": "/html/checkbox.html",
 		"oF": 2
 		},
 	"/kit/code-snippet.kit": {
@@ -317,7 +410,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/code-snippet.html",
+		"oAP": "/html/code-snippet.html",
 		"oF": 2
 		},
 	"/kit/colors.kit": {
@@ -325,7 +418,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/colors.html",
+		"oAP": "/html/colors.html",
 		"oF": 2
 		},
 	"/kit/data-table.kit": {
@@ -333,7 +426,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/data-table.html",
+		"oAP": "/html/data-table.html",
 		"oF": 2
 		},
 	"/kit/designers.kit": {
@@ -341,7 +434,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/designers.html",
+		"oAP": "/html/designers.html",
 		"oF": 2
 		},
 	"/kit/developers.kit": {
@@ -349,7 +442,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/developers.html",
+		"oAP": "/html/developers.html",
 		"oF": 2
 		},
 	"/kit/dropdown.kit": {
@@ -357,7 +450,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dropdown.html",
+		"oAP": "/html/dropdown.html",
 		"oF": 2
 		},
 	"/kit/form.kit": {
@@ -365,7 +458,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/form.html",
+		"oAP": "/html/form.html",
 		"oF": 2
 		},
 	"/kit/grid.kit": {
@@ -373,7 +466,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/grid.html",
+		"oAP": "/html/grid.html",
 		"oF": 2
 		},
 	"/kit/icons.kit": {
@@ -381,7 +474,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/icons.html",
+		"oAP": "/html/icons.html",
 		"oF": 2
 		},
 	"/kit/includes/_footer.kit": {
@@ -421,7 +514,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/html/index.html",
 		"oF": 2
 		},
 	"/kit/layers.kit": {
@@ -429,7 +522,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/layers.html",
+		"oAP": "/html/layers.html",
 		"oF": 2
 		},
 	"/kit/list.kit": {
@@ -437,7 +530,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/list.html",
+		"oAP": "/html/list.html",
 		"oF": 2
 		},
 	"/kit/loading.kit": {
@@ -445,7 +538,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/loading.html",
+		"oAP": "/html/loading.html",
 		"oF": 2
 		},
 	"/kit/media.kit": {
@@ -453,7 +546,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/media.html",
+		"oAP": "/html/media.html",
 		"oF": 2
 		},
 	"/kit/modal.kit": {
@@ -461,7 +554,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/modal.html",
+		"oAP": "/html/modal.html",
 		"oF": 2
 		},
 	"/kit/motion.kit": {
@@ -469,7 +562,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/motion.html",
+		"oAP": "/html/motion.html",
 		"oF": 2
 		},
 	"/kit/notification.kit": {
@@ -477,7 +570,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/notification.html",
+		"oAP": "/html/notification.html",
 		"oF": 2
 		},
 	"/kit/pagination.kit": {
@@ -485,7 +578,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/pagination.html",
+		"oAP": "/html/pagination.html",
 		"oF": 2
 		},
 	"/kit/progress-indicator.kit": {
@@ -493,7 +586,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/progress-indicator.html",
+		"oAP": "/html/progress-indicator.html",
 		"oF": 2
 		},
 	"/kit/radio-button.kit": {
@@ -501,7 +594,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/radio-button.html",
+		"oAP": "/html/radio-button.html",
 		"oF": 2
 		},
 	"/kit/spacing.kit": {
@@ -509,7 +602,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/spacing.html",
+		"oAP": "/html/spacing.html",
 		"oF": 2
 		},
 	"/kit/tabs.kit": {
@@ -517,7 +610,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tabs.html",
+		"oAP": "/html/tabs.html",
 		"oF": 2
 		},
 	"/kit/text-input.kit": {
@@ -525,7 +618,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/text-input.html",
+		"oAP": "/html/text-input.html",
 		"oF": 2
 		},
 	"/kit/toggle.kit": {
@@ -533,7 +626,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/toggle.html",
+		"oAP": "/html/toggle.html",
 		"oF": 2
 		},
 	"/kit/tooltip.kit": {
@@ -541,7 +634,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/tooltip.html",
+		"oAP": "/html/tooltip.html",
 		"oF": 2
 		},
 	"/kit/typography.kit": {
@@ -549,96 +642,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/typography.html",
+		"oAP": "/html/typography.html",
 		"oF": 2
-		},
-	"/layers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/layers.html",
-		"oF": 0
-		},
-	"/list.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/list.html",
-		"oF": 0
-		},
-	"/loading.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/loading.html",
-		"oF": 0
-		},
-	"/media.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/media.html",
-		"oF": 0
-		},
-	"/modal.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/modal.html",
-		"oF": 0
-		},
-	"/motion.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/motion.html",
-		"oF": 0
-		},
-	"/notification.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/notification.html",
-		"oF": 0
-		},
-	"/pagination.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/pagination.html",
-		"oF": 0
-		},
-	"/panel.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/panel.html",
-		"oF": 0
-		},
-	"/progress-indicator.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/progress-indicator.html",
-		"oF": 0
-		},
-	"/radio-button.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/radio-button.html",
-		"oF": 0
 		},
 	"/sass/base/_icons.scss": {
 		"aP": 0,
@@ -1016,75 +1021,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/sass/styleguide/_grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/sass/styleguide/_grid.css",
-		"oF": 1,
-		"oS": 0,
-		"uL": 1
-		},
-	"/search.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/search.html",
-		"oF": 0
-		},
-	"/spacing.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/spacing.html",
-		"oF": 0
-		},
-	"/tabs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tabs.html",
-		"oF": 0
-		},
-	"/text-input.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/text-input.html",
-		"oF": 0
-		},
-	"/toggle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/toggle.html",
-		"oF": 0
-		},
-	"/tooltip.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tooltip.html",
-		"oF": 0
-		},
-	"/typography.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/typography.html",
-		"oF": 0
 		}
 	},
 "hooks": [

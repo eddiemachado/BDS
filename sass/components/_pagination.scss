@@ -11,76 +11,52 @@
 .list-pagination {
 	display: flex;
 	list-style: none;
+	border: 1px solid $colUI-03;
+	border-radius: $radii-02;
 }
 
 .list-pagination li {
 	display: list-item;
-	margin: 0 $spacing-4x;
+	margin: 0;
+	border-right: 1px solid $colUI-03;
+}
+
+.list-pagination li:last-child {
+	border-right: 0;
+}
+
+.list-pagination li:first-child a {
+	border-radius: $radii-02 0 0 $radii-02;
+}
+
+.list-pagination li:last-child a {
+	border-radius: 0 $radii-02 $radii-02 0;
 }
 
 .list-pagination a {
 	display: block;
 	line-height: 34px;
-	width: 36px;
-	height: 36px;
+	width: 34px;
+	height: 34px;
 	text-align: center;
 	text-decoration: none;
 	color: $colText-02;
 	background-color: transparent;
-	border: 2px solid transparent;
-	border-radius: $radii-02;
 	transition: $motionSpeed-01 $motionStandard;
 }
 
 .list-pagination a:hover {
-	background-color: $colPrimary-03;
-	color: $colTextInverse-01;
+	background-color: $colUI-02;
 }
 
 .list-pagination a[aria-current="true"] {
 	cursor: default;
-	border-color: $colPrimary-03;
+	background-color: $colPrimary-03;
+	color: $colTextInverse-01;
 	font-weight: $fontWeight-Bold;
 }
 
 .list-pagination a[aria-current="true"]:hover {
-	background-color: transparent;
-	color: $colPrimary-03;
-}
-
-.pagination-advanced {
-	background-color: $colUI-02;
-	box-shadow: $layRaised;
-	border-radius: $radii-01;
-	padding: $spacing-8x;
-	font-size: $fontSmall-02;
-}
-
-.pagination-advanced a {
-	width: auto;
-	padding: 0 $spacing-8x;
-	min-width: 24px;
-	height: 40px;
-	line-height: 40px;
-	background-color: none;
-	border: none;
-	box-shadow: none;
-}
-
-.pagination-advanced a[aria-current="true"] {
-	font-weight: $fontWeight-Bold;
-}
-
-.pagination-jump {
-	display: inline-flex;
-	margin-left: $spacing-16x;
-	padding: 0 $spacing-16x;
-	line-height: 40px;
-	color: $colText-03;
-	border-left: 1px solid $colUI-03;
-}
-
-.pagination-jump .input-tiny {
-	width: 52px;
-	text-align: center;
+	background-color: $colPrimary-03;
+	color: $colTextInverse-01;
 }

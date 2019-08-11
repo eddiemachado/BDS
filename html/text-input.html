@@ -1,0 +1,380 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/bds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/bds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+
+  		<header class="header site-header" role="header">
+  
+  			<div class="wrapper">
+  
+  						<h1 class="bds-sg-navtitle"><span class="bds-title-bold">B</span>ones <span class="bds-title-bold">D</span>esign <span class="bds-title-bold">S</span>ystem</h1>
+  
+  				</div> <!-- end wrapper -->
+  
+  		</header> <!-- end header -->
+  
+  		<div class="bds-sg-wrapper">
+  
+
+    
+    
+            <nav id="navigation" class="side-nav" role="navigation">
+    
+    
+                    <h5 class="nav-header">General</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="index.html"><span class="nav-text">Getting Started</span></a></li>
+                        <li class="dev"><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                        <li class="dev"><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Style</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                        <li class="done"><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                        <li class="dev"><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                        <li class="done"><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                        <li class="dev"><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                        <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                        <li class="dev"><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                        <li class="done"><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Components</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="done"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                        <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                        <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                        <li class="done"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                        <li class="dev"><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                        <li class="dev"><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                        <li class="dev"><a href="form.html"><span class="nav-text">Form</span></a></li>
+                        <li class="done"><a href="list.html"><span class="nav-text">List</span></a></li>
+                        <li class="done"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                        <li class="new"><a href="media.html"><span class="nav-text">Media</a></li>
+                        <li class="dev"><a href="modal.html"><span class="nav-text">Modal</a></li>
+                        <li class="done"><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                        <li class="done"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                        <li class="dev"><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                        <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                        <li class="dev"><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                        <li class="done"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                        <li class="done"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                        <li class="dev"><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                    </ul>
+    
+    
+    
+            </nav> <!-- end nav -->
+    
+
+
+        <main class="bds-sg-main">
+
+            <div class="bds-sg-header">
+                <h1>Text Input</h1>
+                <p>Various usage of input fields.</p>
+            </div>
+
+            <div class="notification noti-warning">
+                <h3>Things left to do</h3>
+                <ul>
+                  <li>Validation Javascript</li>
+                </ul>
+            </div>
+
+            <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Text Input</h2>
+            <p>Text inputs can work with or without descriptions.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-1" class="field-label">Text Input Label</label>
+                    <input id="text-1" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" />
+                    <div class="input-feedback" data-feedback-field="text-1"></div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-1" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-1" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-1"&gt;&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+          <h2 class="bds-sg-subtitle">Input Types</h2>
+          <p>There are several different input types that can be used in several different situations. There's probably more and there will be more in the future so keep an eye out when you're creating your forms.</p>
+
+          <div class="fieldset-demo">
+              <div class="field">
+                  <label for="password-1" class="field-label">Password Input</label>
+                  <input id="password-1" type="password" class="input input-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" />
+                  <span class="input-password-toggle"></span>
+                  <div class="input-feedback" data-feedback-field="password-1"></div>
+              </div>
+              <div class="field">
+                  <label for="email-1" class="field-label">Email Input</label>
+                  <input id="email-1" type="email" class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" />
+                  <div class="input-feedback" data-feedback-field="email-1"></div>
+              </div>
+              <div class="field">
+                  <label for="number-1" class="field-label">Number Input</label>
+                  <input id="number-1" type="number" class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" />
+                  <div class="input-feedback" data-feedback-field="number-1"></div>
+              </div>
+              <div class="field">
+                  <label for="url-1" class="field-label">URL Input</label>
+                  <input id="url-1" type="url" class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" />
+                  <div class="input-feedback" data-feedback-field="url-1"></div>
+              </div>
+          </div>
+          <pre class="code-snippet">
+              <code class="line-numbers">
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="password-1" class="field-label"&gt;Password Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="password-1" <em>type="password"</em> class="input text-password" aria-required="false" aria-label="Enter your Password" placeholder="Enter your Password" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;span class="input-password-toggle"&gt;&lt;/span&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="password-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="email-1" class="field-label"&gt;Email Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="email-1" <em>type="email"</em> class="input input-email" aria-required="false" aria-label="Enter your Email" placeholder="username@domain.com" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="email-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="number-1" class="field-label"&gt;Number Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="number-1" <em>type="number"</em> class="input input-number" aria-required="false" aria-label="Enter a number 0-24" placeholder="0-24" min="0" max="24" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="number-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+                  <span>&nbsp;</span>
+                  <span>&lt;div class="field"&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;label for="url-1" class="field-label"&gt;URL Input&lt;/label&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;input id="url-1" <em>type="url"</em> class="input input-url" aria-required="false" aria-label="Enter the URL" placeholder="http://www.example.com" /&gt;</span>
+                  <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-1"&gt;&lt;/div&gt;</span>
+                  <span>&lt;/div&gt;</span>
+              </code>
+          </pre>
+
+        </section>
+
+        <section class="bds-sg-block">
+
+
+        <h2 class="bds-sg-subtitle">Textarea</h2>
+        <p>These should work the same as standard text inputs. You can adjust the default height by changing the <span class="code-inline">rows</span> and <span class="code-inline">cols</span> attributes.</p>
+
+        <div class="fieldset-demo">
+            <div class="field">
+              <label for="textarea-1" class="field-label">Textarea Label</label>
+              <textarea id="textarea-1" class="input textarea" rows="3" cols="50" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"></textarea>
+              <div class="input-feedback" data-feedback-field="textarea-1"></div>
+            </div>
+        </div>
+        <pre class="code-snippet">
+            <code class="line-numbers">
+                <span>&lt;div class="field"&gt;</span>
+                <span>&nbsp;&nbsp;&lt;label for="textarea-1" class="field-label"&gt;Textarea Label&lt;/label&gt;</span>
+                <span>&nbsp;&nbsp;&lt;textarea id="textarea-1" class="input textarea" <em>rows="3"</em> <em>cols="50"</em> aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text"&gt;&lt;/textarea&gt;</span>
+                <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="textarea-1"&gt;&lt;/div&gt;</span>
+                <span>&lt;/div&gt;</span>
+            </code>
+        </pre>
+
+      </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Input Descriptions</h2>
+            <p>To add a description you need to add the <span class="code-inline">.input-desc</span> class to the input. You'll also need to put the descriptive text in the <span class="code-inline">.input-feedback</span> div. This text would be replaced with the validation text if there is validation tied to the field.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-2" class="field-label">Text Input Label</label>
+                    <input id="text-2" type="text" class="input input-text input-desc" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" />
+                    <div class="input-feedback" data-feedback-field="text-2">This is a field with a description</div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-2" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-2" type="text" class="input text-input <em>input-desc</em>" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-2"&gt;<em>This is a field with a description</em>&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+
+          <section class="bds-sg-block">
+
+
+            <h2 class="bds-sg-subtitle">Validation</h2>
+            <p>Each input should be validated, either on form submission or inline. These are the positive states. To add this state, add the <span class="code-inline">valid</span> to the input. You can have an optional message simply by adding text inside the <span class="code-inline">.input-feedback</span> div. Below you can see versions where text was added and one where nothing was added.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-3" class="field-label">Text Input Label</label>
+                    <input id="text-3" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" valid />
+                    <div class="input-feedback" data-feedback-field="text-3">This is a success message</div>
+                </div>
+
+                <div class="field">
+                    <label for="text-4" class="field-label">Text Input Label</label>
+                    <input id="text-4" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" valid />
+                    <div class="input-feedback" data-feedback-field="text-4"></div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-3" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-3" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>valid</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-3"&gt;<em>This is a success message</em>&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-4" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-4" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>valid</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-4"&gt;&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Invalid Fields</h2>
+            <p>Negative states work the same, you can simply add the <span class="code-inline">invalid</span> to the input. The feedback messages work the same as the valid states. I reccomend using the descriptions to help users understand what went wrong.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-5" class="field-label">Text Input Label</label>
+                    <input id="text-5" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" invalid />
+                    <div class="input-feedback" data-feedback-field="text-5">This is a success message</div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-5" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-5" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>invalid</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-5"&gt;<em>This is an error message</em>&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Disabled Fields</h2>
+            <p>By adding the <span class="code-inline">disabled</span> field to the input, the state will be uneditable. You can also add a descriptive message if you like by using the same methods as above.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="text-6" class="field-label">Text Input Label</label>
+                    <input id="text-6" type="text" class="input input-text" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" value="Something written and stuff" disabled />
+                    <div class="input-feedback" data-feedback-field="text-6"></div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-6" class="field-label"&gt;Text Input Label&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="text-6" type="text" class="input text-input" aria-required="false" aria-label="Placeholder Text" placeholder="Placeholder Text" <em>disabled</em> /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="text-6"&gt;&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h2 class="bds-sg-subtitle">Adding Icons to Inputs</h2>
+            <p>You can add an icon to any text input by adding the icon class to the <span class="code-inline">.field-label</span>. Below are some examples, as well as some with validation active.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <label for="url-2" class="field-label icon-github">Github Account URL</label>
+                    <input id="url-2" type="text" class="input input-url" aria-required="false" aria-label="Enter your Github URL" placeholder="http://github.com/username" />
+                    <div class="input-feedback" data-feedback-field="url-2"></div>
+                </div>
+                <div class="field">
+                    <label for="url-3" class="field-label icon-twitch">Twitch Account URL</label>
+                    <input id="url-3" type="text" class="input input-url input-desc" aria-required="false" aria-label="Enter your Twitch URL" placeholder="http://twitch.tv/username" value="http://twitch.tv/somedumbguy" valid />
+                    <div class="input-feedback" data-feedback-field="url-3">This is a valid url</div>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="text-1" class="field-label <em>icon-github</em>"&gt;Github Account URL&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="url-2" type="text" class="input input-url" aria-required="false" aria-label="Enter your Github URL" placeholder="http://github.com/username" /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-2"&gt;&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;label for="url-3" class="field-label <em>icon-twitch</em>"&gt;Twitch Account URL&lt;/label&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;input id="url-3" type="text" class="input input-url input-desc" aria-required="false" aria-label="Enter your Twitch URL" placeholder="http://twitch.tv/username" value="http://twitch.tv/somedumbguy" valid /&gt;</span>
+                    <span>&nbsp;&nbsp;&lt;div class="input-feedback" data-feedback-field="url-3"&gt;This is a valid url&lt;/div&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+
+          </section>
+
+
+          </main> <!-- end main -->
+
+
+          
+          
+              </div> <!-- end wrapper -->
+          
+            </body>
+          </html>
+          

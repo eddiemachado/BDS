@@ -9,8 +9,6 @@
 // pulling in variables from the project
 @import 'base/variables';
 
-// this is the grid used exclusively in the styleguide
-@import 'styleguide/grid';
 
 
 body {
@@ -21,10 +19,9 @@ body {
 }
 
 
-.wrapper {
-	margin: 0 auto;
-	width: 90%;
-	float: none;
+.bds-sg-wrapper {
+	display: flex;
+	flex: 1;
 }
 
 
@@ -36,7 +33,8 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: $colUI-01;
+	padding: 0 $spacing-16x;
+	background-color: $colUI-10;
 	z-index: 3000; /* the highest on the site */
 	box-shadow: $layRaised;
 }
@@ -44,11 +42,12 @@ body {
 .bds-sg-navtitle {
 	font-size: $fontMedium-01;
 	line-height: 56px;
+	color: $colTextInverse-01;
 	font-weight: $fontWeight-Bold
 }
 
 .bds-title-bold {
-	color: $colPrimary-04;
+	color: $colPrimary-03;
 
 }
 
@@ -60,8 +59,10 @@ Used for main navigation on site
 **********/
 
 .side-nav {
-	background-color: $colUI-01;
-	padding: 80px 0;
+	background-color: $colUI-02;
+	border-right: 1px solid $colUI-03;
+	padding: $spacing-64x 0;
+	flex: 240px 0 0;
 	z-index: 2000;
 }
 
@@ -72,6 +73,7 @@ Used for main navigation on site
 
 .list-nav {
 	font-size: $fontSmall-02;
+	margin: 0;
 }
 
 .list-nav li {
@@ -86,7 +88,7 @@ Used for main navigation on site
 	line-height: 44px;
 	color: $colText-02;
 	text-decoration: none;
-	padding: 0 16px 0 8px;
+	padding: 0 $spacing-16x 0;
 	transition: background-color $motionSpeed-01 $motionStandard;
 }
 
@@ -100,7 +102,7 @@ Used for main navigation on site
 }
 
 .list-nav a:hover {
-	background-color: $colUI-02;
+	background-color: $colUI-03;
 }
 
 .list-nav-see-all {}
@@ -117,9 +119,9 @@ Used for main navigation on site
 
 
 .nav-header {
-	margin: 32px 16px 8px 8px;
+	margin: $spacing-32x $spacing-16x $spacing-8x;
 	color: $colText-03;
-	font-weight: $fontWeight-Bold;
+	font-weight: $fontWeight-Normal;
 	font-size: $fontSmall-01;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -185,7 +187,8 @@ Used for main navigation on site
 
 
 .bds-sg-main {
-	padding: 100px 0;
+	padding: 0;
+	margin: $spacing-128x $spacing-64x;
 }
 
 
@@ -213,9 +216,8 @@ These are the styles for the design system.
 	position: relative;
 }
 
-.list-nav li.new .nav-text:after,
-.list-nav li.done .nav-text:after,
-.list-nav li.dev .nav-text:after {
+.list-nav li.dev .nav-text:after,
+.list-nav li.done .nav-text:after {
 	font-size: $fontSmall-01;
 	color: $colTextInverse-01;
 	line-height: 1em;
@@ -238,10 +240,7 @@ These are the styles for the design system.
 	background-color: $colSuccess-01;
 }
 
-.list-nav li.new .nav-text:after {
-	content: 'New';
-	background-color: $colPrimary-03;
-}
+
 
 .bds-sg-header {
 	margin: 0 0 24px;
@@ -260,10 +259,11 @@ These are the styles for the design system.
 
 
 .fieldset-demo {
-	background-color: $colUI-02;
+	background-color: $colUI-01;
 	border: 1px solid $colUI-03;
-	padding: 24px;
-	margin: 16px 0 0;
+	padding: $spacing-24x;
+	margin: $spacing-16x 0 0;
+	border-radius: $radii-02 $radii-02 0 0;
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -281,12 +281,13 @@ These are the styles for the design system.
 
 .fieldset-demo.bds-sg-btn-blocks .btn {
 	display: block;
-	margin: 0 0 16px;
+	margin: 0 0 $spacing-16x;
 }
 
 .fieldset-demo + .code-snippet {
 	border-top: 0;
-	margin: 0 0 64px;
+	margin: 0 0 $spacing-64x;
+	border-radius: 0 0 $radii-02 $radii-02;
 }
 
 

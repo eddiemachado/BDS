@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Bones Design System</title>
+        <meta name="description" content="Design System for easier projects.">
+        <meta name="robots" content="noindex">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <!-- styles -->
+        <link rel="stylesheet" href="css/bds-main.css">
+
+        <!-- overrides for system page -->
+        <link rel="stylesheet" href="css/bds-styleguide.css">
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- design system js (must be on every page) -->
+        <script src="js/components.js"></script>
+
+    </head>
+    <body>
+
+
+  		<header class="header site-header" role="header">
+  
+  			<div class="wrapper">
+  
+  						<h1 class="bds-sg-navtitle"><span class="bds-title-bold">B</span>ones <span class="bds-title-bold">D</span>esign <span class="bds-title-bold">S</span>ystem</h1>
+  
+  				</div> <!-- end wrapper -->
+  
+  		</header> <!-- end header -->
+  
+  		<div class="bds-sg-wrapper">
+  
+
+    
+    
+            <nav id="navigation" class="side-nav" role="navigation">
+    
+    
+                    <h5 class="nav-header">General</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="index.html"><span class="nav-text">Getting Started</span></a></li>
+                        <li class="dev"><a href="developers.html"><span class="nav-text">Developers</span></a></li>
+                        <li class="dev"><a href="designers.html"><span class="nav-text">Designers</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Style</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="dev"><a href="branding.html"><span class="nav-text">Branding</span></a></li>
+                        <li class="done"><a href="colors.html"><span class="nav-text">Color</span></a></li>
+                        <li class="dev"><a href="typography.html"><span class="nav-text">Typography</span></a></li>
+                        <li class="done"><a href="grid.html"><span class="nav-text">Grid</span></a></li>
+                        <li class="dev"><a href="icons.html"><span class="nav-text">Icons</span></a></li>
+                        <li class="done"><a href="layers.html"><span class="nav-text">Layers</span></a></li>
+                        <li class="dev"><a href="motion.html"><span class="nav-text">Motion</span></a></li>
+                        <li class="done"><a href="spacing.html"><span class="nav-text">Spacing</span></a></li>
+                    </ul>
+    
+                    <h5 class="nav-header">Components</h5>
+    
+                    <ul class="list list-stripped list-nav">
+                        <li class="done"><a href="breadcrumb.html"><span class="nav-text">Breadcrumb</span></a></li>
+                        <li class="dev"><a href="button.html"><span class="nav-text">Button</span></a></li>
+                        <li class="dev"><a href="checkbox.html"><span class="nav-text">Checkbox</span></a></li>
+                        <li class="done"><a href="code-snippet.html"><span class="nav-text">Code Snippet</span></a></li>
+                        <li class="dev"><a href="data-table.html"><span class="nav-text">Data Table</span></a></li>
+                        <li class="dev"><a href="dropdown.html"><span class="nav-text">Dropdown</span></a></li>
+                        <li class="dev"><a href="form.html"><span class="nav-text">Form</span></a></li>
+                        <li class="done"><a href="list.html"><span class="nav-text">List</span></a></li>
+                        <li class="done"><a href="loading.html"><span class="nav-text">Loading</span></a></li>
+                        <li class="new"><a href="media.html"><span class="nav-text">Media</a></li>
+                        <li class="dev"><a href="modal.html"><span class="nav-text">Modal</a></li>
+                        <li class="done"><a href="notification.html"><span class="nav-text">Notification</span></a></li>
+                        <li class="done"><a href="pagination.html"><span class="nav-text">Pagination</span></a></li>
+                        <li class="dev"><a href="progress-indicator.html"><span class="nav-text">Progress Indicator</span></a></li>
+                        <li class="dev"><a href="radio-button.html"><span class="nav-text">Radio Buttons</span></a></li>
+                        <li class="dev"><a href="tabs.html"><span class="nav-text">Tabs</span></a></li>
+                        <li class="done"><a href="text-input.html"><span class="nav-text">Text Inputs</span></a></li>
+                        <li class="done"><a href="toggle.html"><span class="nav-text">Toggle</span></a></li>
+                        <li class="dev"><a href="tooltip.html"><span class="nav-text">Tooltip</span></a></li>
+                    </ul>
+    
+    
+    
+            </nav> <!-- end nav -->
+    
+
+
+        <main class="bds-sg-main">
+
+            <div class="bds-sg-header">
+                <h1>Checkbox</h1>
+                <p>This is the description</p>
+            </div>
+
+            <div class="notification noti-red">
+                <p>Things left to do</p>
+                <ul>
+                  <li>ARIA Checkbox: <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/checkbox/checkbox-1/checkbox-1.html" target="_blank">Info Here</a></li>
+                </ul>
+            </div>
+
+
+          <section class="bds-sg-block">
+
+
+            <h3 class="bds-sg-subtitle">Checkbox</h3>
+            <p>These should be contained within the <span class="inline-code">.field</span> container and use standard markup.</p>
+
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-1" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="1" name="checkbox-1" />
+                    <label for="checkbox-1" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-2" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="2" name="checkbox-2" />
+                    <label for="checkbox-2" class="checkbox-label">A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-1" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="1" name="checkbox-1" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-1" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-2" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="2" name="checkbox-2" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-2" class="checkbox-label"&gt;A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+          <section class="bds-sg-block">
+
+            <h3 class="bds-sg-subtitle">Auto Selecting a Checkbox Option</h3>
+            <p>To automatically select an option, toggle the <span class="code-inline">aria-checked="false"</span> attribute to be <span class="code-inline">aria-checked="true"</span>. This can be changed by the user if they unselect it.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox-3" />
+                    <label for="checkbox-3" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox-4" />
+                    <label for="checkbox-4" class="checkbox-label">A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-3" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-4" class="checkbox-label"&gt;A longer Checkbox label that spans two lines. This is to test if the checkbox is properly aligned to the top of this text. It shouldn't be aligned to the center.&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+            <section class="bds-sg-block">
+
+            <h3 class="bds-sg-subtitle">Disabled State</h3>
+            <p>To make an option unclickable simply add the <span class="code-inline">disabled</span> attribute to <span class="code-inline">.checkbox</span> input.</p>
+
+            <div class="fieldset-demo">
+                <div class="field">
+                    <input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox-3" />
+                    <label for="checkbox-3" class="checkbox-label">Checkbox label</label>
+                </div>
+
+                <div class="field">
+                    <input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="4" name="checkbox-4" disabled />
+                    <label for="checkbox-4" class="checkbox-label">Checkbox label (disabled)</label>
+                </div>
+            </div>
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-3" class="checkbox" type="checkbox" role="checkbox" aria-checked="false" value="3" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-3" class="checkbox-label"&gt;Checkbox label&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                    <span>&nbsp;</span>
+                    <span>&lt;div class="field"&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="checkbox-4" class="checkbox" type="checkbox" role="checkbox" aria-checked="true" value="4" name="checkbox" /&gt;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="checkbox-4" class="checkbox-label"&gt;Checkbox label (disabled)&lt;/label&gt;</span>
+                    <span>&lt;/div&gt;</span>
+                </code>
+            </pre>
+
+          </section>
+
+            <section class="bds-sg-block">
+
+            <h3 class="bds-sg-subtitle">Accessibility &amp; ARIA Roles</h3>
+            <p>When updating a checkbox, we need to add the attributes for Accessibility. These attributes need to be updated using javascript. This code is located within the <strong>components.js</strong> file.</p>
+
+            <pre class="code-snippet">
+                <code class="line-numbers">
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </code>
+            </pre>
+
+          </section>
+
+</main> <!-- end main -->
+
+
+
+
+    </div> <!-- end wrapper -->
+
+  </body>
+</html>
+

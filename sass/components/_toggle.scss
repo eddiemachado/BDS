@@ -1,4 +1,4 @@
-/* 
+/*
  * Toggle
  */
 
@@ -74,11 +74,11 @@
 /* checked */
 .toggle[aria-checked="true"] + .toggle-actions .toggle-bg:before,
 .toggle:checked + .toggle-actions .toggle-bg:before {
-	background-color: $colPrimary-01;
+	background-color: $colPrimary-03;
 }
 
 .toggle[aria-checked="true"] + .toggle-actions .toggle-bg:after,
 .toggle:checked + .toggle-actions .toggle-bg:after {
 	transform: translateX(21px);
-	border-color: $colPrimary-01;
+	border-color: $colPrimary-03;
 }
